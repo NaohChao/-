@@ -1,0 +1,1266 @@
+###############################################################################
+#
+# IAR ELF Linker V7.10.1.6676/W32 for ARM                 18/Aug/2017  23:29:16
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Exe\fire_Kinetis.out
+#    Map file     =  
+#        E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\List\fire_Kinetis.map
+#    Command line =  
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\camera.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\distance.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\FIRE_key.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\FIRE_LED.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\FIRE_MK60_conf.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\FIRE_MMA7455.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\FIRE_NRF24L0.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\FIRE_SCCB.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\Fuzzy_PID.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Lib\CMSIS\iar_cortexM4l_math.a"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\initialization.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\lcd.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\main.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\misc.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\MK60_adc.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\MK60_dma.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\MK60_DWT.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\MK60_flash.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\MK60_ftm.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\MK60_gpio.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\MK60_i2c.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\MK60_it.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\MK60_lptmr.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\MK60_mcg.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\MK60_PIT.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\MK60_port.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\MK60_spi.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\MK60_SysTick.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\MK60_uart.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\MK60_wdog.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\motor.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\setting.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\startup_MK60DZ10.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\SYN6288.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\system_MK60DZ10.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\UART.o"
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj\vectors.o" -o
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Exe\fire_Kinetis.out" --map
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\List\fire_Kinetis.map" --config
+#        "E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18
+#        tmt-fuzzy\华东决赛\Prj\IAR\config files\fire_ROM_K60N512.icf" --entry
+#        __iar_program_start --redirect __write=__write_buffered --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"A2":  place at 0x00000410 { ro section .noinit };
+"P1":  place in [from 0x00000000 to 0x00040000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1fff0410 to 0x20010000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+
+  Section              Kind        Address     Size  Object
+  -------              ----        -------     ----  ------
+"A1":                                         0x410
+  .intvec              const    0x00000000    0x410  vectors.o [1]
+                              - 0x00000410    0x410
+
+"P1", part 1 of 2:                              0x0
+  .rodata              const    0x00000410      0x0  zero_init3.o [5]
+
+"A2":                                           0x8
+  .noinit              ro code  0x00000410      0x8  startup_MK60DZ10.o [1]
+                              - 0x00000418      0x8
+
+"P1", part 2 of 2:                          0x13b80
+  .text                ro code  0x00000418   0xb704  camera.o [1]
+  .text                ro code  0x0000bb1c     0x2e  I32ToFlt.o [4]
+  .text                ro code  0x0000bb4a     0x22  zero_init3.o [5]
+  .text                ro code  0x0000bb6c     0xfc  FltDiv.o [4]
+  .text                ro code  0x0000bc68     0xd8  FltMul.o [4]
+  .text                ro code  0x0000bd40     0xe6  FltSub.o [4]
+  .text                ro code  0x0000be28     0x44  FltToS32.o [4]
+  .text                ro code  0x0000be6c     0x30  I32ToDbl.o [4]
+  .text                ro code  0x0000be9c    0x1a2  DblMul.o [4]
+  .text                ro code  0x0000c040    0x180  DblSub.o [4]
+  .text                ro code  0x0000c1c0     0x2e  DblCmpLe.o [4]
+  .text                ro code  0x0000c1f0     0x84  FltAdd.o [4]
+  .text                ro code  0x0000c274     0x4e  FltToDbl.o [4]
+  .text                ro code  0x0000c2c4     0xe8  DblAdd.o [4]
+  .text                ro code  0x0000c3ac     0x58  DblToI32.o [4]
+  .text                ro code  0x0000c404      0x8  abs.o [3]
+  .text                ro code  0x0000c40c    0x246  DblDiv.o [4]
+  .text                ro code  0x0000c654     0x90  DblToFlt.o [4]
+  .text                ro code  0x0000c6e4     0x24  FltCmpLe.o [4]
+  .text                ro code  0x0000c708     0x24  FltCmpGe.o [4]
+  .text                ro code  0x0000c72c     0x1c  FltCmpEq.o [4]
+  .text                ro code  0x0000c748    0x59c  Fuzzy_PID.o [1]
+  .text                ro code  0x0000cce4    0x3a0  MK60_ftm.o [1]
+  .text                ro code  0x0000d084    0x2a8  MK60_uart.o [1]
+  .text                ro code  0x0000d32c    0x51a  lcd.o [1]
+  .text                ro code  0x0000d848    0x19c  MK60_gpio.o [1]
+  .text                ro code  0x0000d9e4    0x4dc  FIRE_NRF24L0.o [1]
+  .text                ro code  0x0000dec0     0x64  MK60_SysTick.o [1]
+  Veneer               ro code  0x0000df24      0x8  - Linker created -
+  Veneer               ro code  0x0000df2c      0x8  - Linker created -
+  .text                ro code  0x0000df34    0x118  FIRE_MK60_conf.o [1]
+  .text                ro code  0x0000e04c     0xec  MK60_port.o [1]
+  .text                ro code  0x0000e138    0x5c0  MK60_spi.o [1]
+  .text                ro code  0x0000e6f8     0xcc  misc.o [1]
+  .text                ro code  0x0000e7c4     0x24  printf.o [3]
+  .text                ro code  0x0000e7e8     0x9c  FIRE_key.o [1]
+  .text                ro code  0x0000e884     0x50  FIRE_LED.o [1]
+  .text                ro code  0x0000e8d4     0x78  MK60_DWT.o [1]
+  .text                ro code  0x0000e94c     0x76  ABImemcpy_unaligned.o [5]
+  .text                ro code  0x0000e9c4    0xd6e  xprintffull_nomb.o [3]
+  .text                ro code  0x0000f734     0x16  strchr.o [5]
+  .text                ro code  0x0000f74c     0x36  strlen.o [5]
+  .text                ro code  0x0000f784     0x58  memchr.o [5]
+  .text                ro code  0x0000f7dc     0xee  I64DivMod.o [5]
+  .text                ro code  0x0000f8ca     0x42  xdnorm.o [4]
+  .text                ro code  0x0000f90c     0x2e  DblCmpGe.o [4]
+  .text                ro code  0x0000f93c    0x10c  xdscale.o [4]
+  .text                ro code  0x0000fa48     0x6c  localeconv.o [3]
+  .text                ro code  0x0000fab4      0xe  div.o [3]
+  .text                ro code  0x0000fac4      0x2  I64DivZer.o [5]
+  .text                ro code  0x0000fac6      0x2  xtls.o [3]
+  .text                ro code  0x0000fac8   0x1460  setting.o [1]
+  .data_init                    0x00010f28   0x1158  <Block>
+    Initializer bytes  ro data  0x00010f28   0x1158  <for .data-1>
+  .text                ro code  0x00012080    0x4c8  MK60_dma.o [1]
+  .text                ro code  0x00012548    0x438  motor.o [1]
+  .text                ro code  0x00012980    0x3e8  initialization.o [1]
+  .text                ro code  0x00012d68     0x7c  MK60_PIT.o [1]
+  Veneer               ro code  0x00012de4      0x8  - Linker created -
+  .text                ro code  0x00012dec    0x3b4  MK60_mcg.o [1]
+  .text                ro code  0x000131a0    0x310  distance.o [1]
+  .rodata              const    0x000134b0    0x228  lcd.o [1]
+  CodeRelocate                  0x000136d8    0x1b8  <Block>
+    Initializer bytes  ro data  0x000136d8    0x1b8  <for CodeRelocateRam-1>
+  .text                ro code  0x00013890    0x124  system_MK60DZ10.o [1]
+  .text                ro code  0x000139b4     0x40  MK60_wdog.o [1]
+  .text                ro code  0x000139f4     0x78  main.o [1]
+  .rodata              const    0x00013a6c     0x48  misc.o [1]
+  .rodata              const    0x00013ab4     0x48  MK60_flash.o [1]
+  .rodata              const    0x00013afc     0x48  MK60_gpio.o [1]
+  .rodata              const    0x00013b44     0x48  MK60_SysTick.o [1]
+  .rodata              const    0x00013b8c     0x44  MK60_dma.o [1]
+  .rodata              const    0x00013bd0     0x44  MK60_ftm.o [1]
+  .rodata              const    0x00013c14     0x44  MK60_PIT.o [1]
+  .rodata              const    0x00013c58     0x44  MK60_spi.o [1]
+  .rodata              const    0x00013c9c     0x40  MK60_spi.o [1]
+  .rodata              const    0x00013cdc     0x40  MK60_uart.o [1]
+  .rodata              const    0x00013d1c     0x3c  FIRE_MK60_conf.o [1]
+  .text                ro code  0x00013d58     0x28  data_init.o [5]
+  .rodata              const    0x00013d80     0x24  FIRE_MK60_conf.o [1]
+  .iar.init_table      const    0x00013da4     0x10  - Linker created -
+  .rodata              const    0x00013db4     0x20  FIRE_MK60_conf.o [1]
+  .text                ro code  0x00013dd4     0x1a  cmain.o [5]
+  .text                ro code  0x00013dee      0x4  low_level_init.o [3]
+  .text                ro code  0x00013df2      0x4  exit.o [3]
+  .text                ro code  0x00013df8      0xa  cexit.o [5]
+  .text                ro code  0x00013e04      0xc  XXexit.o [5]
+  .text                ro code  0x00013e10     0x16  xprout.o [3]
+  .text                ro code  0x00013e28      0xc  putchar.o [3]
+  .rodata              const    0x00013e34     0x14  FIRE_MK60_conf.o [1]
+  .rodata              const    0x00013e48      0xc  setting.o [1]
+  .rodata              const    0x00013e54      0xc  setting.o [1]
+  .rodata              const    0x00013e60      0xc  setting.o [1]
+  .rodata              const    0x00013e6c      0xc  setting.o [1]
+  .rodata              const    0x00013e78      0xc  setting.o [1]
+  .rodata              const    0x00013e84      0xc  setting.o [1]
+  .rodata              const    0x00013e90      0xc  setting.o [1]
+  .rodata              const    0x00013e9c      0xc  setting.o [1]
+  .text                ro code  0x00013ea8      0xc  cstartup_M.o [5]
+  .rodata              const    0x00013eb4      0x8  FIRE_NRF24L0.o [1]
+  .rodata              const    0x00013ebc      0x8  setting.o [1]
+  .rodata              const    0x00013ec4      0x8  setting.o [1]
+  .rodata              const    0x00013ecc      0x8  setting.o [1]
+  .rodata              const    0x00013ed4      0x8  setting.o [1]
+  .rodata              const    0x00013edc      0x8  setting.o [1]
+  .rodata              const    0x00013ee4      0x8  setting.o [1]
+  .rodata              const    0x00013eec      0x8  setting.o [1]
+  .rodata              const    0x00013ef4      0x8  setting.o [1]
+  .rodata              const    0x00013efc      0x8  setting.o [1]
+  .rodata              const    0x00013f04      0x8  setting.o [1]
+  .rodata              const    0x00013f0c      0x4  MK60_spi.o [1]
+  Initializer bytes    ro data  0x00013f10     0x88  <for P2 s0>
+                              - 0x00013f98  0x13b80
+
+"P2", part 1 of 3:                           0x1310
+  .data                         0x1fff0410   0x1158  <Block>
+    .data-1                     0x1fff0410   0x1158  <Init block>
+      .data            inited   0x1fff0410      0x1  camera.o [1]
+      .data            inited   0x1fff0414      0x4  camera.o [1]
+      .data            inited   0x1fff0418      0x4  camera.o [1]
+      .data            inited   0x1fff041c      0x4  camera.o [1]
+      .data            inited   0x1fff0420      0x4  camera.o [1]
+      .data            inited   0x1fff0424      0x4  camera.o [1]
+      .data            inited   0x1fff0428      0x4  camera.o [1]
+      .data            inited   0x1fff042c      0x4  camera.o [1]
+      .data            inited   0x1fff0430      0x4  camera.o [1]
+      .data            inited   0x1fff0434      0x4  camera.o [1]
+      .data            inited   0x1fff0438      0x1  camera.o [1]
+      .data            inited   0x1fff043a      0x2  camera.o [1]
+      .data            inited   0x1fff043c      0x1  camera.o [1]
+      .data            inited   0x1fff0440     0x14  camera.o [1]
+      .data            inited   0x1fff0454     0x28  camera.o [1]
+      .data            inited   0x1fff047c      0x1  camera.o [1]
+      .data            inited   0x1fff0480      0x4  camera.o [1]
+      .data            inited   0x1fff0484      0x4  camera.o [1]
+      .data            inited   0x1fff0488      0x4  camera.o [1]
+      .data            inited   0x1fff048c      0x1  camera.o [1]
+      .data            inited   0x1fff0490     0x28  camera.o [1]
+      .data            inited   0x1fff04b8      0x8  FIRE_key.o [1]
+      .data            inited   0x1fff04c0      0x4  FIRE_LED.o [1]
+      .data            inited   0x1fff04c4    0x708  FIRE_MK60_conf.o [1]
+      .data            inited   0x1fff0bcc      0x8  FIRE_NRF24L0.o [1]
+      .data            inited   0x1fff0bd4      0x8  FIRE_NRF24L0.o [1]
+      .data            inited   0x1fff0bdc      0x4  Fuzzy_PID.o [1]
+      .data            inited   0x1fff0be0      0x4  Fuzzy_PID.o [1]
+      .data            inited   0x1fff0be4      0x4  Fuzzy_PID.o [1]
+      .data            inited   0x1fff0be8      0x4  Fuzzy_PID.o [1]
+      .data            inited   0x1fff0bec      0x4  Fuzzy_PID.o [1]
+      .data            inited   0x1fff0bf0      0x4  Fuzzy_PID.o [1]
+      .data            inited   0x1fff0bf4      0x4  Fuzzy_PID.o [1]
+      .data            inited   0x1fff0bf8      0x4  Fuzzy_PID.o [1]
+      .data            inited   0x1fff0bfc    0x2a4  Fuzzy_PID.o [1]
+      .data            inited   0x1fff0ea0    0x2a4  Fuzzy_PID.o [1]
+      .data            inited   0x1fff1144    0x2a4  Fuzzy_PID.o [1]
+      .data            inited   0x1fff13e8      0x2  initialization.o [1]
+      .data            inited   0x1fff13ea      0x2  initialization.o [1]
+      .data            inited   0x1fff13ec      0x2  initialization.o [1]
+      .data            inited   0x1fff13f0      0xc  MK60_ftm.o [1]
+      .data            inited   0x1fff13fc     0x14  MK60_gpio.o [1]
+      .data            inited   0x1fff1410     0x44  MK60_mcg.o [1]
+      .data            inited   0x1fff1454      0x4  MK60_mcg.o [1]
+      .data            inited   0x1fff1458     0x14  MK60_port.o [1]
+      .data            inited   0x1fff146c      0xc  MK60_spi.o [1]
+      .data            inited   0x1fff1478     0x18  MK60_uart.o [1]
+      .data            inited   0x1fff1490      0x2  motor.o [1]
+      .data            inited   0x1fff1492      0x2  motor.o [1]
+      .data            inited   0x1fff1494      0x2  motor.o [1]
+      .data            inited   0x1fff1496      0x2  motor.o [1]
+      .data            inited   0x1fff1498      0x2  motor.o [1]
+      .data            inited   0x1fff149a      0x2  motor.o [1]
+      .data            inited   0x1fff149c      0x2  motor.o [1]
+      .data            inited   0x1fff149e      0x2  motor.o [1]
+      .data            inited   0x1fff14a0      0x2  motor.o [1]
+      .data            inited   0x1fff14a2      0x2  motor.o [1]
+      .data            inited   0x1fff14a4      0x2  motor.o [1]
+      .data            inited   0x1fff14a6      0x2  motor.o [1]
+      .data            inited   0x1fff14a8      0x1  motor.o [1]
+      .data            inited   0x1fff14a9      0x1  motor.o [1]
+      .data            inited   0x1fff14ac      0x4  setting.o [1]
+      .data            inited   0x1fff14b0      0x4  setting.o [1]
+      .data            inited   0x1fff14b4      0x1  setting.o [1]
+      .data            inited   0x1fff14b8      0x4  setting.o [1]
+      .data            inited   0x1fff14bc      0x4  setting.o [1]
+      .data            inited   0x1fff14c0      0x4  setting.o [1]
+      .data            inited   0x1fff14c4      0x4  setting.o [1]
+      .data            inited   0x1fff14c8     0x20  setting.o [1]
+      .data            inited   0x1fff14e8     0x20  setting.o [1]
+      .data            inited   0x1fff1508     0x20  setting.o [1]
+      .data            inited   0x1fff1528     0x40  xfiles.o [3]
+  CodeRelocateRam               0x1fff1568    0x1b8  <Block>
+    CodeRelocateRam-1           0x1fff1568    0x1b8  <Init block>
+      Veneer           inited   0x1fff1568      0x8  - Linker created -
+      .textrw          inited   0x1fff1570    0x160  MK60_flash.o [1]
+      .textrw          inited   0x1fff16d0     0x50  MK60_mcg.o [1]
+                              - 0x1fff1720   0x1310
+
+"P2", part 2 of 3:                           0x3490
+  .bss                          0x1fff1720   0x348f  <Block>
+    .bss               zero     0x1fff1720   0x1f40  camera.o [1]
+    .bss               zero     0x1fff3660     0x50  camera.o [1]
+    .bss               zero     0x1fff36b0      0x4  camera.o [1]
+    .bss               zero     0x1fff36b4      0x4  camera.o [1]
+    .bss               zero     0x1fff36b8      0x4  camera.o [1]
+    .bss               zero     0x1fff36bc     0x50  camera.o [1]
+    .bss               zero     0x1fff370c      0x4  camera.o [1]
+    .bss               zero     0x1fff3710      0x4  camera.o [1]
+    .bss               zero     0x1fff3714      0x4  camera.o [1]
+    .bss               zero     0x1fff3718     0x10  camera.o [1]
+    .bss               zero     0x1fff3728     0x18  camera.o [1]
+    .bss               zero     0x1fff3740     0x28  camera.o [1]
+    .bss               zero     0x1fff3768      0x4  camera.o [1]
+    .bss               zero     0x1fff376c      0x4  camera.o [1]
+    .bss               zero     0x1fff3770      0x4  camera.o [1]
+    .bss               zero     0x1fff3774      0x4  camera.o [1]
+    .bss               zero     0x1fff3778      0x4  camera.o [1]
+    .bss               zero     0x1fff377c      0x4  camera.o [1]
+    .bss               zero     0x1fff3780      0x4  camera.o [1]
+    .bss               zero     0x1fff3784      0x4  camera.o [1]
+    .bss               zero     0x1fff3788      0x4  camera.o [1]
+    .bss               zero     0x1fff378c      0x4  camera.o [1]
+    .bss               zero     0x1fff3790      0x4  camera.o [1]
+    .bss               zero     0x1fff3794      0x4  camera.o [1]
+    .bss               zero     0x1fff3798      0x4  camera.o [1]
+    .bss               zero     0x1fff379c      0x4  camera.o [1]
+    .bss               zero     0x1fff37a0      0x4  camera.o [1]
+    .bss               zero     0x1fff37a4      0x4  camera.o [1]
+    .bss               zero     0x1fff37a8      0x4  camera.o [1]
+    .bss               zero     0x1fff37ac      0x4  camera.o [1]
+    .bss               zero     0x1fff37b0      0x4  camera.o [1]
+    .bss               zero     0x1fff37b4      0x4  camera.o [1]
+    .bss               zero     0x1fff37b8      0x4  camera.o [1]
+    .bss               zero     0x1fff37bc      0x4  camera.o [1]
+    .bss               zero     0x1fff37c0      0x4  camera.o [1]
+    .bss               zero     0x1fff37c4      0x4  camera.o [1]
+    .bss               zero     0x1fff37c8     0x20  camera.o [1]
+    .bss               zero     0x1fff37e8      0x4  camera.o [1]
+    .bss               zero     0x1fff37ec      0x4  camera.o [1]
+    .bss               zero     0x1fff37f0      0x4  camera.o [1]
+    .bss               zero     0x1fff37f4      0x4  camera.o [1]
+    .bss               zero     0x1fff37f8      0x4  camera.o [1]
+    .bss               zero     0x1fff37fc      0x4  camera.o [1]
+    .bss               zero     0x1fff3800      0x4  camera.o [1]
+    .bss               zero     0x1fff3804      0x4  camera.o [1]
+    .bss               zero     0x1fff3808      0x4  camera.o [1]
+    .bss               zero     0x1fff380c      0x4  camera.o [1]
+    .bss               zero     0x1fff3810      0x4  camera.o [1]
+    .bss               zero     0x1fff3814      0x4  camera.o [1]
+    .bss               zero     0x1fff3818      0x4  camera.o [1]
+    .bss               zero     0x1fff381c      0x4  camera.o [1]
+    .bss               zero     0x1fff3820      0x4  camera.o [1]
+    .bss               zero     0x1fff3824      0x4  camera.o [1]
+    .bss               zero     0x1fff3828      0x4  camera.o [1]
+    .bss               zero     0x1fff382c      0x4  camera.o [1]
+    .bss               zero     0x1fff3830      0x4  camera.o [1]
+    .bss               zero     0x1fff3834      0x4  camera.o [1]
+    .bss               zero     0x1fff3838     0x50  camera.o [1]
+    .bss               zero     0x1fff3888     0x50  camera.o [1]
+    .bss               zero     0x1fff38d8      0x4  camera.o [1]
+    .bss               zero     0x1fff38dc      0x4  camera.o [1]
+    .bss               zero     0x1fff38e0      0x4  camera.o [1]
+    .bss               zero     0x1fff38e4      0x4  camera.o [1]
+    .bss               zero     0x1fff38e8      0x4  camera.o [1]
+    .bss               zero     0x1fff38ec      0x4  camera.o [1]
+    .bss               zero     0x1fff38f0      0x4  camera.o [1]
+    .bss               zero     0x1fff38f4      0x4  camera.o [1]
+    .bss               zero     0x1fff38f8      0x4  camera.o [1]
+    .bss               zero     0x1fff38fc      0x4  camera.o [1]
+    .bss               zero     0x1fff3900      0x4  camera.o [1]
+    .bss               zero     0x1fff3904      0x4  camera.o [1]
+    .bss               zero     0x1fff3908      0x4  camera.o [1]
+    .bss               zero     0x1fff390c      0x4  camera.o [1]
+    .bss               zero     0x1fff3910     0x50  camera.o [1]
+    .bss               zero     0x1fff3960     0x50  camera.o [1]
+    .bss               zero     0x1fff39b0      0x4  camera.o [1]
+    .bss               zero     0x1fff39b4      0x4  camera.o [1]
+    .bss               zero     0x1fff39b8      0x4  camera.o [1]
+    .bss               zero     0x1fff39bc      0x4  camera.o [1]
+    .bss               zero     0x1fff39c0      0x4  camera.o [1]
+    .bss               zero     0x1fff39c4      0x4  camera.o [1]
+    .bss               zero     0x1fff39c8      0x4  camera.o [1]
+    .bss               zero     0x1fff39cc      0x4  camera.o [1]
+    .bss               zero     0x1fff39d0      0x4  camera.o [1]
+    .bss               zero     0x1fff39d4      0x4  camera.o [1]
+    .bss               zero     0x1fff39d8      0x4  camera.o [1]
+    .bss               zero     0x1fff39dc      0x4  camera.o [1]
+    .bss               zero     0x1fff39e0      0x4  camera.o [1]
+    .bss               zero     0x1fff39e4      0x4  camera.o [1]
+    .bss               zero     0x1fff39e8      0x4  camera.o [1]
+    .bss               zero     0x1fff39ec     0x20  camera.o [1]
+    .bss               zero     0x1fff3a0c      0x4  camera.o [1]
+    .bss               zero     0x1fff3a10      0x4  camera.o [1]
+    .bss               zero     0x1fff3a14      0x4  camera.o [1]
+    .bss               zero     0x1fff3a18      0x4  camera.o [1]
+    .bss               zero     0x1fff3a1c      0x4  camera.o [1]
+    .bss               zero     0x1fff3a20      0x4  camera.o [1]
+    .bss               zero     0x1fff3a24      0x4  camera.o [1]
+    .bss               zero     0x1fff3a28      0x4  camera.o [1]
+    .bss               zero     0x1fff3a2c      0x4  camera.o [1]
+    .bss               zero     0x1fff3a30      0x4  camera.o [1]
+    .bss               zero     0x1fff3a34      0x4  camera.o [1]
+    .bss               zero     0x1fff3a38      0x4  camera.o [1]
+    .bss               zero     0x1fff3a3c      0x4  camera.o [1]
+    .bss               zero     0x1fff3a40      0x4  camera.o [1]
+    .bss               zero     0x1fff3a44      0x4  camera.o [1]
+    .bss               zero     0x1fff3a48      0x4  camera.o [1]
+    .bss               zero     0x1fff3a4c      0x4  camera.o [1]
+    .bss               zero     0x1fff3a50      0x4  camera.o [1]
+    .bss               zero     0x1fff3a54      0x4  camera.o [1]
+    .bss               zero     0x1fff3a58      0x4  camera.o [1]
+    .bss               zero     0x1fff3a5c      0x4  camera.o [1]
+    .bss               zero     0x1fff3a60      0x4  camera.o [1]
+    .bss               zero     0x1fff3a64      0x4  camera.o [1]
+    .bss               zero     0x1fff3a68      0x4  camera.o [1]
+    .bss               zero     0x1fff3a6c      0x4  camera.o [1]
+    .bss               zero     0x1fff3a70      0x4  camera.o [1]
+    .bss               zero     0x1fff3a74      0x4  camera.o [1]
+    .bss               zero     0x1fff3a78      0x4  camera.o [1]
+    .bss               zero     0x1fff3a7c      0x4  camera.o [1]
+    .bss               zero     0x1fff3a80      0x4  camera.o [1]
+    .bss               zero     0x1fff3a84     0x50  camera.o [1]
+    .bss               zero     0x1fff3ad4     0x50  camera.o [1]
+    .bss               zero     0x1fff3b24     0x50  camera.o [1]
+    .bss               zero     0x1fff3b74      0x4  camera.o [1]
+    .bss               zero     0x1fff3b78      0x4  camera.o [1]
+    .bss               zero     0x1fff3b7c      0x4  camera.o [1]
+    .bss               zero     0x1fff3b80      0x4  camera.o [1]
+    .bss               zero     0x1fff3b84      0x4  camera.o [1]
+    .bss               zero     0x1fff3b88      0x4  camera.o [1]
+    .bss               zero     0x1fff3b8c      0x4  camera.o [1]
+    .bss               zero     0x1fff3b90      0x4  camera.o [1]
+    .bss               zero     0x1fff3b94      0x4  camera.o [1]
+    .bss               zero     0x1fff3b98      0x4  camera.o [1]
+    .bss               zero     0x1fff3b9c      0x4  camera.o [1]
+    .bss               zero     0x1fff3ba0      0x4  camera.o [1]
+    .bss               zero     0x1fff3ba4      0x4  camera.o [1]
+    .bss               zero     0x1fff3ba8      0x4  camera.o [1]
+    .bss               zero     0x1fff3bac      0x4  camera.o [1]
+    .bss               zero     0x1fff3bb0      0x4  camera.o [1]
+    .bss               zero     0x1fff3bb4      0x4  camera.o [1]
+    .bss               zero     0x1fff3bb8      0x4  camera.o [1]
+    .bss               zero     0x1fff3bbc      0x4  camera.o [1]
+    .bss               zero     0x1fff3bc0      0x4  camera.o [1]
+    .bss               zero     0x1fff3bc4      0x4  camera.o [1]
+    .bss               zero     0x1fff3bc8      0x4  camera.o [1]
+    .bss               zero     0x1fff3bcc      0x4  camera.o [1]
+    .bss               zero     0x1fff3bd0     0x10  distance.o [1]
+    .bss               zero     0x1fff3be0      0x4  distance.o [1]
+    .bss               zero     0x1fff3be4    0xa00  FIRE_NRF24L0.o [1]
+    .bss               zero     0x1fff45e4      0x4  FIRE_NRF24L0.o [1]
+    .bss               zero     0x1fff45e8      0x4  FIRE_NRF24L0.o [1]
+    .bss               zero     0x1fff45ec      0x4  Fuzzy_PID.o [1]
+    .bss               zero     0x1fff45f0      0x4  Fuzzy_PID.o [1]
+    .bss               zero     0x1fff45f4      0x4  Fuzzy_PID.o [1]
+    .bss               zero     0x1fff45f8      0x4  Fuzzy_PID.o [1]
+    .bss               zero     0x1fff45fc      0x4  Fuzzy_PID.o [1]
+    .bss               zero     0x1fff4600      0x4  Fuzzy_PID.o [1]
+    .bss               zero     0x1fff4604      0x4  initialization.o [1]
+    .bss               zero     0x1fff4608     0x14  initialization.o [1]
+    .bss               zero     0x1fff461c      0x4  initialization.o [1]
+    .bss               zero     0x1fff4620      0x4  initialization.o [1]
+    .bss               zero     0x1fff4624    0x400  lcd.o [1]
+    .bss               zero     0x1fff4a24     0x50  main.o [1]
+    .bss               zero     0x1fff4a74     0x40  MK60_dma.o [1]
+    .bss               zero     0x1fff4ab4      0xc  motor.o [1]
+    .bss               zero     0x1fff4ac0      0xc  motor.o [1]
+    .bss               zero     0x1fff4acc      0x4  motor.o [1]
+    .bss               zero     0x1fff4ad0      0x4  motor.o [1]
+    .bss               zero     0x1fff4ad4      0x4  setting.o [1]
+    .bss               zero     0x1fff4ad8      0x4  setting.o [1]
+    .bss               zero     0x1fff4adc      0x4  setting.o [1]
+    .bss               zero     0x1fff4ae0      0x4  setting.o [1]
+    .bss               zero     0x1fff4ae4      0x4  setting.o [1]
+    .bss               zero     0x1fff4ae8      0x4  setting.o [1]
+    .bss               zero     0x1fff4aec      0x4  setting.o [1]
+    .bss               zero     0x1fff4af0      0x4  setting.o [1]
+    .bss               zero     0x1fff4af4      0x4  setting.o [1]
+    .bss               zero     0x1fff4af8      0x4  system_MK60DZ10.o [1]
+    .bss               zero     0x1fff4afc      0x4  system_MK60DZ10.o [1]
+    .bss               zero     0x1fff4b00      0x4  system_MK60DZ10.o [1]
+    .bss               zero     0x1fff4b04     0x50  xfiles.o [3]
+    .bss               zero     0x1fff4b54      0x2  camera.o [1]
+    .bss               zero     0x1fff4b56      0x2  camera.o [1]
+    .bss               zero     0x1fff4b58      0x2  camera.o [1]
+    .bss               zero     0x1fff4b5a      0x2  camera.o [1]
+    .bss               zero     0x1fff4b5c      0x2  camera.o [1]
+    .bss               zero     0x1fff4b5e      0x2  camera.o [1]
+    .bss               zero     0x1fff4b60      0x2  camera.o [1]
+    .bss               zero     0x1fff4b62      0x2  initialization.o [1]
+    .bss               zero     0x1fff4b64      0x2  initialization.o [1]
+    .bss               zero     0x1fff4b66      0x2  initialization.o [1]
+    .bss               zero     0x1fff4b68      0x2  initialization.o [1]
+    .bss               zero     0x1fff4b6a      0x2  initialization.o [1]
+    .bss               zero     0x1fff4b6c      0x1  camera.o [1]
+    .bss               zero     0x1fff4b6d      0x1  camera.o [1]
+    .bss               zero     0x1fff4b6e      0x1  camera.o [1]
+    .bss               zero     0x1fff4b6f      0x1  camera.o [1]
+    .bss               zero     0x1fff4b70      0x1  camera.o [1]
+    .bss               zero     0x1fff4b71      0x1  camera.o [1]
+    .bss               zero     0x1fff4b72      0x1  camera.o [1]
+    .bss               zero     0x1fff4b73      0x1  camera.o [1]
+    .bss               zero     0x1fff4b74      0x1  camera.o [1]
+    .bss               zero     0x1fff4b75      0x1  camera.o [1]
+    .bss               zero     0x1fff4b76      0x1  camera.o [1]
+    .bss               zero     0x1fff4b77      0x1  camera.o [1]
+    .bss               zero     0x1fff4b78      0x1  camera.o [1]
+    .bss               zero     0x1fff4b79      0x1  camera.o [1]
+    .bss               zero     0x1fff4b7a      0x1  camera.o [1]
+    .bss               zero     0x1fff4b7b      0x1  camera.o [1]
+    .bss               zero     0x1fff4b7c      0x1  camera.o [1]
+    .bss               zero     0x1fff4b7d      0x1  camera.o [1]
+    .bss               zero     0x1fff4b7e      0x1  camera.o [1]
+    .bss               zero     0x1fff4b7f      0x1  camera.o [1]
+    .bss               zero     0x1fff4b80      0x1  camera.o [1]
+    .bss               zero     0x1fff4b81      0x1  camera.o [1]
+    .bss               zero     0x1fff4b82      0x1  camera.o [1]
+    .bss               zero     0x1fff4b83      0x1  camera.o [1]
+    .bss               zero     0x1fff4b84      0x1  camera.o [1]
+    .bss               zero     0x1fff4b85      0x1  camera.o [1]
+    .bss               zero     0x1fff4b86      0x1  camera.o [1]
+    .bss               zero     0x1fff4b87      0x1  camera.o [1]
+    .bss               zero     0x1fff4b88      0x1  camera.o [1]
+    .bss               zero     0x1fff4b89      0x1  camera.o [1]
+    .bss               zero     0x1fff4b8a      0x1  camera.o [1]
+    .bss               zero     0x1fff4b8b      0x1  camera.o [1]
+    .bss               zero     0x1fff4b8c      0x1  camera.o [1]
+    .bss               zero     0x1fff4b8d      0x1  camera.o [1]
+    .bss               zero     0x1fff4b8e      0x1  camera.o [1]
+    .bss               zero     0x1fff4b8f      0x1  camera.o [1]
+    .bss               zero     0x1fff4b90      0x1  camera.o [1]
+    .bss               zero     0x1fff4b91      0x1  camera.o [1]
+    .bss               zero     0x1fff4b92      0x1  camera.o [1]
+    .bss               zero     0x1fff4b93      0x1  camera.o [1]
+    .bss               zero     0x1fff4b94      0x1  camera.o [1]
+    .bss               zero     0x1fff4b95      0x1  camera.o [1]
+    .bss               zero     0x1fff4b96      0x1  camera.o [1]
+    .bss               zero     0x1fff4b97      0x1  camera.o [1]
+    .bss               zero     0x1fff4b98      0x1  camera.o [1]
+    .bss               zero     0x1fff4b99      0x1  camera.o [1]
+    .bss               zero     0x1fff4b9a      0x1  camera.o [1]
+    .bss               zero     0x1fff4b9b      0x1  camera.o [1]
+    .bss               zero     0x1fff4b9c      0x1  camera.o [1]
+    .bss               zero     0x1fff4b9d      0x1  distance.o [1]
+    .bss               zero     0x1fff4b9e      0x1  FIRE_NRF24L0.o [1]
+    .bss               zero     0x1fff4b9f      0x1  FIRE_NRF24L0.o [1]
+    .bss               zero     0x1fff4ba0      0x1  FIRE_NRF24L0.o [1]
+    .bss               zero     0x1fff4ba1      0x1  FIRE_NRF24L0.o [1]
+    .bss               zero     0x1fff4ba2      0x1  FIRE_NRF24L0.o [1]
+    .bss               zero     0x1fff4ba3      0x1  initialization.o [1]
+    .bss               zero     0x1fff4ba4      0x1  motor.o [1]
+    .bss               zero     0x1fff4ba5      0x1  motor.o [1]
+    .bss               zero     0x1fff4ba6      0x1  setting.o [1]
+    .bss               zero     0x1fff4ba7      0x1  setting.o [1]
+    .bss               zero     0x1fff4ba8      0x1  setting.o [1]
+    .bss               zero     0x1fff4ba9      0x1  setting.o [1]
+    .bss               zero     0x1fff4baa      0x1  setting.o [1]
+    .bss               zero     0x1fff4bab      0x1  setting.o [1]
+    .bss               zero     0x1fff4bac      0x1  setting.o [1]
+    .bss               zero     0x1fff4bad      0x1  setting.o [1]
+    .bss               zero     0x1fff4bae      0x1  setting.o [1]
+                              - 0x1fff4baf   0x348f
+
+"P2", part 3 of 3:                             0x88
+  P2 s0                         0x1fff4bb0     0x88  <Init block>
+    __DLIB_PERTHREAD   inited   0x1fff4bb0     0x88  localeconv.o [3]
+                              - 0x1fff4c38     0x88
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x348f:
+          0x1fff1720  0x348f
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  rw code  ro data  rw data
+    ------                 -------  -------  -------  -------
+E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18 tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj: [1]
+    FIRE_LED.o                  80                 4        4
+    FIRE_MK60_conf.o           280             1 948    1 800
+    FIRE_NRF24L0.o           1 244                24    2 589
+    FIRE_key.o                 156                 8        8
+    Fuzzy_PID.o              1 436             2 060    2 084
+    MK60_DWT.o                 120
+    MK60_PIT.o                 124                68
+    MK60_SysTick.o             100                72
+    MK60_dma.o               1 224                68       64
+    MK60_flash.o                        352      424
+    MK60_ftm.o                 928                82       12
+    MK60_gpio.o                412                92       20
+    MK60_mcg.o                 948       80      152       72
+    MK60_port.o                236                20       20
+    MK60_spi.o               1 472               148       12
+    MK60_uart.o                680                88       24
+    MK60_wdog.o                 64
+    camera.o                46 852               168    9 610
+    distance.o                 784                         21
+    initialization.o         1 000                 6       49
+    lcd.o                    1 306               552    1 024
+    main.o                     120                         80
+    misc.o                     204                72
+    motor.o                  1 080                26       60
+    setting.o                5 216               302      166
+    startup_MK60DZ10.o           8
+    system_MK60DZ10.o          292                         12
+    vectors.o                                  1 040
+    ---------------------------------------------------------
+    Total:                  66 366      432    7 424   17 731
+
+command line: [2]
+    ---------------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    abs.o                        8
+    div.o                       14
+    exit.o                       4
+    localeconv.o               108               136      136
+    low_level_init.o             4
+    printf.o                    36
+    putchar.o                   12
+    xfiles.o                                      64      144
+    xprintffull_nomb.o       3 438
+    xprout.o                    22
+    xtls.o                       2
+    ---------------------------------------------------------
+    Total:                   3 648               200      280
+
+m7M_tl.a: [4]
+    DblAdd.o                   232
+    DblCmpGe.o                  46
+    DblCmpLe.o                  46
+    DblDiv.o                   582
+    DblMul.o                   418
+    DblSub.o                   384
+    DblToFlt.o                 144
+    DblToI32.o                  88
+    FltAdd.o                   132
+    FltCmpEq.o                  28
+    FltCmpGe.o                  36
+    FltCmpLe.o                  36
+    FltDiv.o                   252
+    FltMul.o                   216
+    FltSub.o                   230
+    FltToDbl.o                  78
+    FltToS32.o                  68
+    I32ToDbl.o                  48
+    I32ToFlt.o                  46
+    xdnorm.o                    66
+    xdscale.o                  268
+    ---------------------------------------------------------
+    Total:                   3 444
+
+rt7M_tl.a: [5]
+    ABImemcpy_unaligned.o      118
+    I64DivMod.o                238
+    I64DivZer.o                  2
+    XXexit.o                    12
+    cexit.o                     10
+    cmain.o                     26
+    cstartup_M.o                12
+    data_init.o                 40
+    memchr.o                    88
+    strchr.o                    22
+    strlen.o                    54
+    zero_init3.o                34
+    ---------------------------------------------------------
+    Total:                     656
+
+    Gaps                        30                         20
+    Linker created              24        8       24
+-------------------------------------------------------------
+    Grand Total:            74 168      440    7 648   18 031
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.bss$$Base              0x1fff1720           --   Gb  - Linker created -
+.bss$$Limit             0x1fff4baf           --   Gb  - Linker created -
+.data$$Base             0x1fff0410           --   Gb  - Linker created -
+.data$$Limit            0x1fff1568           --   Gb  - Linker created -
+.data_init$$Base        0x00010f28           --   Gb  - Linker created -
+.data_init$$Limit       0x00012080           --   Gb  - Linker created -
+?main                   0x00013dd5          Code  Gb  cmain.o [5]
+ASSERT_FAILED_STR       0x00013d80    0x24  Data  Gb  FIRE_MK60_conf.o [1]
+AvaliableLines          0x1fff3bcc     0x4  Data  Gb  camera.o [1]
+AverageX                0x1fff3bb8     0x4  Data  Gb  camera.o [1]
+AverageX_2              0x1fff3bc0     0x4  Data  Gb  camera.o [1]
+AverageX_Y              0x1fff3bc4     0x4  Data  Gb  camera.o [1]
+AverageY                0x1fff3bbc     0x4  Data  Gb  camera.o [1]
+CodeRelocate$$Base      0x000136d8           --   Gb  - Linker created -
+CodeRelocate$$Limit     0x00013890           --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff1568           --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff1720           --   Gb  - Linker created -
+D                       0x1fff0ea0   0x2a4  Data  Gb  Fuzzy_PID.o [1]
+DIRC_D                  0x1fff45f0     0x4  Data  Gb  Fuzzy_PID.o [1]
+DIRC_Do                 0x1fff0be0     0x4  Data  Gb  Fuzzy_PID.o [1]
+DIRC_I                  0x1fff45f4     0x4  Data  Gb  Fuzzy_PID.o [1]
+DIRC_Io                 0x1fff0be4     0x4  Data  Gb  Fuzzy_PID.o [1]
+DIRC_P                  0x1fff45ec     0x4  Data  Gb  Fuzzy_PID.o [1]
+DIRC_Po                 0x1fff0bdc     0x4  Data  Gb  Fuzzy_PID.o [1]
+DMA_count_Init          0x000122db   0x1ec  Code  Gb  MK60_dma.o [1]
+DMA_count_get           0x000124c7    0x1c  Code  Gb  MK60_dma.o [1]
+DMA_count_reset         0x000124e3    0x18  Code  Gb  MK60_dma.o [1]
+Dd                      0x1fff0bec     0x4  Data  Gb  Fuzzy_PID.o [1]
+Di                      0x1fff0bf0     0x4  Data  Gb  Fuzzy_PID.o [1]
+Distance                0x1fff37e8     0x4  Data  Gb  camera.o [1]
+Dp                      0x1fff0be8     0x4  Data  Gb  Fuzzy_PID.o [1]
+F6x8                    0x000134b0   0x228  Data  Gb  lcd.o [1]
+FTMN                    0x1fff13f0     0xc  Data  Gb  MK60_ftm.o [1]
+FTM_PWM_Duty            0x0000cf81    0xf0  Code  Gb  MK60_ftm.o [1]
+FTM_PWM_init            0x0000cce5   0x29c  Code  Gb  MK60_ftm.o [1]
+Fuzzy_Scan              0x0000c749   0x4ea  Code  Gb  Fuzzy_PID.o [1]
+GPIOX                   0x1fff13fc    0x14  Data  Gb  MK60_gpio.o [1]
+HS                      0x1fff4b56     0x2  Data  Gb  camera.o [1]
+I                       0x1fff1144   0x2a4  Data  Gb  Fuzzy_PID.o [1]
+KEY_PTxn                0x1fff04b8     0x8  Data  Gb  FIRE_key.o [1]
+LCD_DLY_ms              0x0000d48f    0x1c  Code  Gb  lcd.o [1]
+LCD_Fill                0x0000d44f    0x40  Code  Gb  lcd.o [1]
+LCD_Init                0x0000d4ab   0x122  Code  Gb  lcd.o [1]
+LCD_P6x8Str             0x0000d615    0x7a  Code  Gb  lcd.o [1]
+LCD_Set_Pos             0x0000d427    0x28  Code  Gb  lcd.o [1]
+LCD_Show_Number         0x0000d6e9   0x15e  Code  Gb  lcd.o [1]
+LCD_WrCmd               0x0000d3ad    0x7a  Code  Gb  lcd.o [1]
+LCD_WrDat               0x0000d32d    0x7e  Code  Gb  lcd.o [1]
+LCD_write_char          0x0000d68f    0x38  Code  Gb  lcd.o [1]
+LED_PTxn                0x1fff04c0     0x4  Data  Gb  FIRE_LED.o [1]
+LED_init                0x000129bb    0x30  Code  Gb  initialization.o [1]
+LP_image                0x0000b925    0xbc  Code  Gb  camera.o [1]
+Least_Squares           0x00000441   0x156  Code  Gb  camera.o [1]
+Left_turn_flag          0x1fff4b91     0x1  Data  Gb  camera.o [1]
+NRF_ISR_RX_FIFO         0x1fff3be4   0xa00  Data  Gb  FIRE_NRF24L0.o [1]
+NVIC_DisableIRQ         0x0000042d    0x14  Code  Lc  camera.o [1]
+NVIC_EnableIRQ          0x00000419    0x14  Code  Lc  camera.o [1]
+NVIC_EnableIRQ          0x00012981    0x14  Code  Lc  initialization.o [1]
+NVIC_EnableIRQ          0x00012081    0x16  Code  Lc  MK60_dma.o [1]
+NVIC_EnableIRQ          0x0000d085    0x16  Code  Lc  MK60_uart.o [1]
+NVIC_SetPriority        0x00012995    0x26  Code  Lc  initialization.o [1]
+NVIC_SystemReset        0x0000df35    0x1a  Code  Lc  FIRE_MK60_conf.o [1]
+OLED_GRAM               0x1fff4624   0x400  Data  Gb  lcd.o [1]
+OLED_Refresh_Gram       0x0000d5cd    0x48  Code  Gb  lcd.o [1]
+P                       0x1fff0bfc   0x2a4  Data  Gb  Fuzzy_PID.o [1]
+PIT0_IRQHandler         0x00012bad    0x70  Code  Gb  initialization.o [1]
+PORTA_IRQHandler        0x00012cbd    0x22  Code  Gb  initialization.o [1]
+PORTX                   0x1fff1458    0x14  Data  Gb  MK60_port.o [1]
+RX_ADDRESS              0x1fff0bd4     0x8  Data  Gb  FIRE_NRF24L0.o [1]
+Region$$Table$$Base     0x00013da4           --   Gb  - Linker created -
+Region$$Table$$Limit    0x00013db4           --   Gb  - Linker created -
+Reset_Handler           0x00000411          Code  Gb  startup_MK60DZ10.o [1]
+SPIN                    0x1fff146c     0xc  Data  Gb  MK60_spi.o [1]
+SumX                    0x1fff3ba8     0x4  Data  Gb  camera.o [1]
+SumY                    0x1fff3bac     0x4  Data  Gb  camera.o [1]
+TX_ADDRESS              0x1fff0bcc     0x8  Data  Gb  FIRE_NRF24L0.o [1]
+Temp_PID_1              0x1fff4adc     0x4  Data  Gb  setting.o [1]
+Temp_PID_2              0x1fff4ae0     0x4  Data  Gb  setting.o [1]
+Temp_PID_3              0x1fff4ae4     0x4  Data  Gb  setting.o [1]
+Temp_PID_4              0x1fff4ae8     0x4  Data  Gb  setting.o [1]
+Temp_PID_5              0x1fff4aec     0x4  Data  Gb  setting.o [1]
+Temp_PID_6              0x1fff4af0     0x4  Data  Gb  setting.o [1]
+Temp_PID_7              0x1fff4af4     0x4  Data  Gb  setting.o [1]
+UARTN                   0x1fff1478    0x18  Data  Gb  MK60_uart.o [1]
+VS                      0x1fff4b54     0x2  Data  Gb  camera.o [1]
+V_Cnt                   0x1fff4b6c     0x1  Data  Gb  camera.o [1]
+_GenldFullNoMb          0x0000f4a1   0x24a  Code  Lc  xprintffull_nomb.o [3]
+_LdtobFullNoMb          0x0000f0b5   0x3e6  Code  Lc  xprintffull_nomb.o [3]
+_LitobFullNoMb          0x0000efad   0x106  Code  Lc  xprintffull_nomb.o [3]
+_Locale_aeabi_lconv     0x1fff4c00    0x38  Data  Gb  localeconv.o [3]
+_Locale_lconv           0x1fff4bb0    0x50  Data  Gb  localeconv.o [3]
+_PrintfFullNoMb         0x0000e9c5   0x5e2  Code  Gb  xprintffull_nomb.o [3]
+_Prout                  0x00013e11    0x16  Code  Gb  xprout.o [3]
+_PutcharsFullNoMb       0x0000f6eb    0x2e  Code  Lc  xprintffull_nomb.o [3]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2000fff8           --   Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fff0000           --   Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000           --   Gb  command line/config [2]
+__aeabi_cdcmple         0x0000c1c1          Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x0000f90d          Code  Gb  DblCmpGe.o [4]
+__aeabi_cfcmpeq         0x0000c72d          Code  Gb  FltCmpEq.o [4]
+__aeabi_cfcmple         0x0000c6e5          Code  Gb  FltCmpLe.o [4]
+__aeabi_cfrcmple        0x0000c709          Code  Gb  FltCmpGe.o [4]
+__aeabi_d2f             0x0000c655          Code  Gb  DblToFlt.o [4]
+__aeabi_d2iz            0x0000c3ad          Code  Gb  DblToI32.o [4]
+__aeabi_d2uiz           0x0000c3d9          Code  Gb  DblToI32.o [4]
+__aeabi_dadd            0x0000c2c5          Code  Gb  DblAdd.o [4]
+__aeabi_ddiv            0x0000c40d          Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x0000be9d          Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x0000c041          Code  Gb  DblSub.o [4]
+__aeabi_f2d             0x0000c275          Code  Gb  FltToDbl.o [4]
+__aeabi_f2iz            0x0000be29          Code  Gb  FltToS32.o [4]
+__aeabi_fadd            0x0000c1f1          Code  Gb  FltAdd.o [4]
+__aeabi_fdiv            0x0000bb6d          Code  Gb  FltDiv.o [4]
+__aeabi_fmul            0x0000bc69          Code  Gb  FltMul.o [4]
+__aeabi_fsub            0x0000bd41          Code  Gb  FltSub.o [4]
+__aeabi_i2d             0x0000be6d          Code  Gb  I32ToDbl.o [4]
+__aeabi_i2f             0x0000bb1d          Code  Gb  I32ToFlt.o [4]
+__aeabi_ldiv0           0x0000fac5          Code  Gb  I64DivZer.o [5]
+__aeabi_ui2d            0x0000be81          Code  Gb  I32ToDbl.o [4]
+__aeabi_uldivmod        0x0000f7dd          Code  Gb  I64DivMod.o [5]
+__cmain                 0x00013dd5          Code  Gb  cmain.o [5]
+__code_start__ {Abs}    0x00000410           --   Gb  command line/config [2]
+__exit                  0x00013e05          Code  Gb  XXexit.o [5]
+__iar_Dnorm             0x0000f8cb    0x42  Code  Gb  xdnorm.o [4]
+__iar_Dscale            0x0000f93d   0x10c  Code  Gb  xdscale.o [4]
+__iar_Locale_lconv_init
+                        0x0000fa49    0x3a  Code  Gb  localeconv.o [3]
+__iar_Memchr            0x0000f785          Code  Gb  memchr.o [5]
+__iar_Stdout            0x1fff1528    0x40  Data  Gb  xfiles.o [3]
+__iar_Strchr            0x0000f735          Code  Gb  strchr.o [5]
+__iar_d2uiz             0x0000c3e5          Code  Gb  DblToI32.o [4]
+__iar_dadd              0x0000c2d9          Code  Gb  DblAdd.o [4]
+__iar_data_init3        0x00013d59    0x28  Code  Gb  data_init.o [5]
+__iar_dlib_perthread_access
+                        0x0000fac7     0x2  Code  Gb  xtls.o [3]
+__iar_dsub              0x0000c055          Code  Gb  DblSub.o [4]
+__iar_dsubStart         0x0000c067          Code  Gb  DblSub.o [4]
+__iar_fadd              0x0000c201          Code  Gb  FltAdd.o [4]
+__iar_fsub              0x0000bd51          Code  Gb  FltSub.o [4]
+__iar_fsubStart         0x0000bd61          Code  Gb  FltSub.o [4]
+__iar_program_start     0x00013ea9          Code  Gb  cstartup_M.o [5]
+__iar_ui2d              0x0000be85          Code  Gb  I32ToDbl.o [4]
+__iar_ui2f              0x0000bb31          Code  Gb  I32ToFlt.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x0000e94d          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x0000e96d          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x0000e96d          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_zero_init3        0x0000bb4b    0x22  Code  Gb  zero_init3.o [5]
+__low_level_init        0x00013def     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000   0x410  Data  Gb  vectors.o [1]
+_call_main              0x00013de1          Code  Gb  cmain.o [5]
+_exit                   0x00013df9          Code  Gb  cexit.o [5]
+_main                   0x00013deb          Code  Gb  cmain.o [5]
+abs                     0x0000c405     0x8  Code  Gb  abs.o [3]
+allwhite                0x1fff4b77     0x1  Data  Gb  camera.o [1]
+aobian_left             0x1fff3b7c     0x4  Data  Gb  camera.o [1]
+aobian_right            0x1fff3b80     0x4  Data  Gb  camera.o [1]
+assert_failed           0x0000df4f    0x12  Code  Gb  FIRE_MK60_conf.o [1]
+avg_distance            0x1fff4604     0x4  Data  Gb  initialization.o [1]
+avg_front               0x1fff3a70     0x4  Data  Gb  camera.o [1]
+b_left                  0x1fff39b4     0x4  Data  Gb  camera.o [1]
+b_right                 0x1fff39b0     0x4  Data  Gb  camera.o [1]
+bizhang_flag            0x1fff39cc     0x4  Data  Gb  camera.o [1]
+bizhang_zhidao_flag     0x1fff4b95     0x1  Data  Gb  camera.o [1]
+break_left              0x1fff4b6f     0x1  Data  Gb  camera.o [1]
+break_left_shizi        0x1fff4b79     0x1  Data  Gb  camera.o [1]
+break_right             0x1fff4b6e     0x1  Data  Gb  camera.o [1]
+break_right_shizi       0x1fff4b7a     0x1  Data  Gb  camera.o [1]
+buff                    0x1fff39ec    0x20  Data  Gb  camera.o [1]
+bus_clk_khz             0x1fff4b00     0x4  Data  Gb  system_MK60DZ10.o [1]
+camera                  0x000005d1  0xa7ce  Code  Gb  camera.o [1]
+change_num              0x1fff4b85     0x1  Data  Gb  camera.o [1]
+chaoche_ready_flag      0x1fff4b8d     0x1  Data  Gb  camera.o [1]
+chaoche_stop_distance   0x1fff39dc     0x4  Data  Gb  camera.o [1]
+chaoche_zhidao_flag     0x1fff3b74     0x4  Data  Gb  camera.o [1]
+chaochesudu_flag        0x1fff4b93     0x1  Data  Gb  camera.o [1]
+chasu                   0x0000b63d   0x128  Code  Gb  camera.o [1]
+chasu_rate              0x1fff0434     0x4  Data  Gb  camera.o [1]
+chuhuan_diu_count       0x1fff37fc     0x4  Data  Gb  camera.o [1]
+chuhuan_find_left       0x1fff3800     0x4  Data  Gb  camera.o [1]
+chuhuan_find_right      0x1fff3804     0x4  Data  Gb  camera.o [1]
+chuhuan_hang            0x1fff37a0     0x4  Data  Gb  camera.o [1]
+chuhuan_lie             0x1fff379c     0x4  Data  Gb  camera.o [1]
+chuhuandao_ceju_flag    0x1fff4b86     0x1  Data  Gb  camera.o [1]
+chuhuandao_flag         0x1fff047c     0x1  Data  Gb  camera.o [1]
+common_startup          0x000138e5    0x98  Code  Gb  system_MK60DZ10.o [1]
+core_clk_khz            0x1fff4af8     0x4  Data  Gb  system_MK60DZ10.o [1]
+core_clk_mhz            0x1fff4afc     0x4  Data  Gb  system_MK60DZ10.o [1]
+count                   0x1fff36b8     0x4  Data  Gb  camera.o [1]
+count_black1            0x1fff377c     0x4  Data  Gb  camera.o [1]
+count_black2            0x1fff3780     0x4  Data  Gb  camera.o [1]
+count_init              0x1fff4a74    0x40  Data  Gb  MK60_dma.o [1]
+count_white             0x1fff37b8     0x4  Data  Gb  camera.o [1]
+cruise_mode_on          0x1fff14b4     0x1  Data  Gb  setting.o [1]
+dajiao_distance         0x1fff39d8     0x4  Data  Gb  camera.o [1]
+dat                     0x1fff4620     0x4  Data  Gb  initialization.o [1]
+default_isr             0x0000e00f    0x1c  Code  Gb  FIRE_MK60_conf.o [1]
+distance                0x1fff461c     0x4  Data  Gb  initialization.o [1]
+distance1               0x1fff37ac     0x4  Data  Gb  camera.o [1]
+distance3               0x1fff37b0     0x4  Data  Gb  camera.o [1]
+distance_control        0x000131a1   0x310  Code  Gb  distance.o [1]
+diushi_count            0x1fff3ba0     0x4  Data  Gb  camera.o [1]
+diushi_time             0x1fff3ba4     0x4  Data  Gb  camera.o [1]
+div                     0x0000fab5     0xe  Code  Gb  div.o [3]
+dma_portx2buff_init     0x00012097   0x244  Code  Gb  MK60_dma.o [1]
+dwt_delay_ms            0x0000e935    0x18  Code  Gb  MK60_DWT.o [1]
+dwt_delay_us            0x0000e8d5    0x4e  Code  Gb  MK60_DWT.o [1]
+e                       0x1fff45f8     0x4  Data  Gb  Fuzzy_PID.o [1]
+e_spr                   0x1fff0bf4     0x4  Data  Gb  Fuzzy_PID.o [1]
+ec                      0x1fff45fc     0x4  Data  Gb  Fuzzy_PID.o [1]
+ec_spr                  0x1fff0bf8     0x4  Data  Gb  Fuzzy_PID.o [1]
+edge_length1            0x1fff3784     0x4  Data  Gb  camera.o [1]
+edge_length2            0x1fff3788     0x4  Data  Gb  camera.o [1]
+error_I                 0x1fff3b9c     0x4  Data  Gb  camera.o [1]
+error_distance          0x1fff3bd0    0x10  Data  Gb  distance.o [1]
+error_piancha           0x1fff3b98     0x4  Data  Gb  camera.o [1]
+error_speed_left        0x1fff4ac0     0xc  Data  Gb  motor.o [1]
+error_speed_right       0x1fff4ab4     0xc  Data  Gb  motor.o [1]
+error_steer             0x1fff3728    0x18  Data  Gb  camera.o [1]
+exit                    0x00013df3     0x4  Code  Gb  exit.o [3]
+exti_init               0x0000e0c7    0x64  Code  Gb  MK60_port.o [1]
+fache_distance          0x1fff3b90     0x4  Data  Gb  camera.o [1]
+fache_finish_flag       0x1fff048c     0x1  Data  Gb  camera.o [1]
+fache_flag              0x1fff4ad4     0x4  Data  Gb  setting.o [1]
+fache_state             0x1fff3b94     0x4  Data  Gb  camera.o [1]
+fangcha                 0x1fff3a78     0x4  Data  Gb  camera.o [1]
+fangcha_cha             0x1fff3a7c     0x4  Data  Gb  camera.o [1]
+fangcha_old             0x1fff3a80     0x4  Data  Gb  camera.o [1]
+find_line_left          0x1fff4b73     0x1  Data  Gb  camera.o [1]
+find_line_right         0x1fff4b72     0x1  Data  Gb  camera.o [1]
+fire_cpy                0x0000e749    0x7c  Code  Gb  misc.o [1]
+first_slow_speed        0x1fff4b68     0x2  Data  Gb  initialization.o [1]
+flash_cmd               0x1fff1571    0x20  Code  Gb  MK60_flash.o [1]
+flash_erase_sector      0x1fff15b9    0x58  Code  Gb  MK60_flash.o [1]
+flash_init              0x1fff1591    0x28  Code  Gb  MK60_flash.o [1]
+flash_write             0x1fff1611    0x8e  Code  Gb  MK60_flash.o [1]
+former_flag             0x1fff0410     0x1  Data  Gb  camera.o [1]
+fputc                   0x0000df61    0x14  Code  Gb  FIRE_MK60_conf.o [1]
+front_distance          0x1fff39d4     0x4  Data  Gb  camera.o [1]
+gg_flag                 0x1fff4b9d     0x1  Data  Gb  distance.o [1]
+gpio_get                0x0000d9a1    0x3a  Code  Gb  MK60_gpio.o [1]
+gpio_init               0x0000d849    0xae  Code  Gb  MK60_gpio.o [1]
+gpio_set                0x0000d8f7    0x72  Code  Gb  MK60_gpio.o [1]
+gpio_turn               0x0000d969    0x38  Code  Gb  MK60_gpio.o [1]
+huan_judge_bottom1      0x1fff38e0     0x4  Data  Gb  camera.o [1]
+huan_judge_bottom2      0x1fff38e4     0x4  Data  Gb  camera.o [1]
+huan_judge_top1         0x1fff38e8     0x4  Data  Gb  camera.o [1]
+huan_judge_top2         0x1fff38ec     0x4  Data  Gb  camera.o [1]
+huan_leftline           0x1fff3888    0x50  Data  Gb  camera.o [1]
+huan_rightline          0x1fff3838    0x50  Data  Gb  camera.o [1]
+huan_zhongxian_front    0x1fff38d8     0x4  Data  Gb  camera.o [1]
+huandao                 0x1fff37c8    0x20  Data  Gb  camera.o [1]
+huandao_chaoche_set     0x1fff14e8    0x20  Data  Gb  setting.o [1]
+huandao_count           0x1fff0480     0x4  Data  Gb  camera.o [1]
+huandao_diu_count       0x1fff37bc     0x4  Data  Gb  camera.o [1]
+huandao_find_left       0x1fff37c4     0x4  Data  Gb  camera.o [1]
+huandao_find_right      0x1fff37c0     0x4  Data  Gb  camera.o [1]
+huandao_number          0x1fff0484     0x4  Data  Gb  camera.o [1]
+huandao_set             0x1fff14c8    0x20  Data  Gb  setting.o [1]
+huandao_size            0x1fff4b84     0x1  Data  Gb  camera.o [1]
+huandao_size_set        0x1fff1508    0x20  Data  Gb  setting.o [1]
+huandao_width1          0x1fff3794     0x4  Data  Gb  camera.o [1]
+huandao_width2          0x1fff3798     0x4  Data  Gb  camera.o [1]
+hui_flag                0x1fff39e4     0x4  Data  Gb  camera.o [1]
+i                       0x1fff36b0     0x4  Data  Gb  camera.o [1]
+img_flag                0x1fff0438     0x1  Data  Gb  camera.o [1]
+imgbuff                 0x1fff1720  0x1f40  Data  Gb  camera.o [1]
+init_distance           0x1fff3be0     0x4  Data  Gb  distance.o [1]
+init_speed_left         0x1fff4ad0     0x4  Data  Gb  motor.o [1]
+init_speed_right        0x1fff4acc     0x4  Data  Gb  motor.o [1]
+initialization          0x00012a17   0x194  Code  Gb  initialization.o [1]
+j                       0x1fff36b4     0x4  Data  Gb  camera.o [1]
+jieshouchaoche_flag     0x1fff4b8c     0x1  Data  Gb  camera.o [1]
+kd_speed_left           0x1fff4ba5     0x1  Data  Gb  motor.o [1]
+kd_speed_right          0x1fff4ba4     0x1  Data  Gb  motor.o [1]
+key1                    0x1fff4ba6     0x1  Data  Gb  setting.o [1]
+key2                    0x1fff4ba7     0x1  Data  Gb  setting.o [1]
+key3                    0x1fff4ba8     0x1  Data  Gb  setting.o [1]
+key4                    0x1fff4ba9     0x1  Data  Gb  setting.o [1]
+key_check               0x0000e855    0x2a  Code  Gb  FIRE_key.o [1]
+key_get                 0x0000e83b    0x1a  Code  Gb  FIRE_key.o [1]
+key_init                0x0000e7e9    0x52  Code  Gb  FIRE_key.o [1]
+key_save                0x00010ea1    0x22  Code  Gb  setting.o [1]
+key_scan                0x00010e31    0x64  Code  Gb  setting.o [1]
+ki_speed                0x1fff14a2     0x2  Data  Gb  motor.o [1]
+ki_speed_10             0x1fff149e     0x2  Data  Gb  motor.o [1]
+ki_speed_40             0x1fff149c     0x2  Data  Gb  motor.o [1]
+ki_speed_5              0x1fff14a0     0x2  Data  Gb  motor.o [1]
+ki_speed_70             0x1fff149a     0x2  Data  Gb  motor.o [1]
+ki_speed_left           0x1fff14a9     0x1  Data  Gb  motor.o [1]
+ki_speed_right          0x1fff14a8     0x1  Data  Gb  motor.o [1]
+kp_speed                0x1fff1498     0x2  Data  Gb  motor.o [1]
+kp_speed_10             0x1fff1494     0x2  Data  Gb  motor.o [1]
+kp_speed_40             0x1fff1492     0x2  Data  Gb  motor.o [1]
+kp_speed_5              0x1fff1496     0x2  Data  Gb  motor.o [1]
+kp_speed_70             0x1fff1490     0x2  Data  Gb  motor.o [1]
+kp_speed_left           0x1fff14a6     0x2  Data  Gb  motor.o [1]
+kp_speed_right          0x1fff14a4     0x2  Data  Gb  motor.o [1]
+kuandu                  0x1fff3740    0x28  Data  Gb  camera.o [1]
+kuandu_cha1             0x1fff378c     0x4  Data  Gb  camera.o [1]
+kuandu_cha2             0x1fff3790     0x4  Data  Gb  camera.o [1]
+lastkey1                0x1fff4baa     0x1  Data  Gb  setting.o [1]
+lastkey2                0x1fff4bab     0x1  Data  Gb  setting.o [1]
+lastkey3                0x1fff4bac     0x1  Data  Gb  setting.o [1]
+lastkey4                0x1fff4bad     0x1  Data  Gb  setting.o [1]
+led_init                0x0000e885    0x3a  Code  Gb  FIRE_LED.o [1]
+led_turn                0x0000e8bf    0x10  Code  Gb  FIRE_LED.o [1]
+left_cha                0x1fff3a84    0x50  Data  Gb  camera.o [1]
+leftline                0x1fff36bc    0x50  Data  Gb  camera.o [1]
+leftline_flag           0x1fff4b70     0x1  Data  Gb  camera.o [1]
+length                  0x1fff4608    0x14  Data  Gb  initialization.o [1]
+localeconv              0x0000fa83    0x16  Code  Gb  localeconv.o [3]
+main                    0x000139f5    0x4a  Code  Gb  main.o [1]
+mcg_cfg                 0x1fff1410    0x44  Data  Gb  MK60_mcg.o [1]
+mcg_div                 0x1fff1454     0x4  Data  Gb  MK60_mcg.o [1]
+mcg_div_count           0x00012ded   0x2e6  Code  Gb  MK60_mcg.o [1]
+memchr                  0x0000f785          Code  Gb  memchr.o [5]
+mid_cha                 0x1fff3b24    0x50  Data  Gb  camera.o [1]
+mid_old                 0x1fff043a     0x2  Data  Gb  camera.o [1]
+midline                 0x1fff3660    0x50  Data  Gb  camera.o [1]
+midline_drift           0x1fff39e0     0x4  Data  Gb  camera.o [1]
+nrf_handler             0x0000dd7f   0x108  Code  Gb  FIRE_NRF24L0.o [1]
+nrf_init                0x0000d9e5    0xa8  Code  Gb  FIRE_NRF24L0.o [1]
+nrf_irq_tx_addr         0x1fff45e4     0x4  Data  Gb  FIRE_NRF24L0.o [1]
+nrf_irq_tx_flag         0x1fff4ba2     0x1  Data  Gb  FIRE_NRF24L0.o [1]
+nrf_irq_tx_pnum         0x1fff45e8     0x4  Data  Gb  FIRE_NRF24L0.o [1]
+nrf_link_check          0x0000db2b    0x78  Code  Gb  FIRE_NRF24L0.o [1]
+nrf_mode                0x1fff4b9e     0x1  Data  Gb  FIRE_NRF24L0.o [1]
+nrf_process             0x0000b765   0x1c0  Code  Gb  camera.o [1]
+nrf_readbuf             0x0000db03    0x28  Code  Lc  FIRE_NRF24L0.o [1]
+nrf_readreg             0x0000dab3    0x28  Code  Lc  FIRE_NRF24L0.o [1]
+nrf_rx                  0x0000dc3b    0xca  Code  Gb  FIRE_NRF24L0.o [1]
+nrf_rx_flag             0x1fff4ba1     0x1  Data  Gb  FIRE_NRF24L0.o [1]
+nrf_rx_front            0x1fff4b9f     0x1  Data  Gb  FIRE_NRF24L0.o [1]
+nrf_rx_mode             0x0000dba3    0x50  Code  Lc  FIRE_NRF24L0.o [1]
+nrf_rx_rear             0x1fff4ba0     0x1  Data  Gb  FIRE_NRF24L0.o [1]
+nrf_tx                  0x0000dd05    0x56  Code  Gb  FIRE_NRF24L0.o [1]
+nrf_tx_mode             0x0000dbf3    0x48  Code  Lc  FIRE_NRF24L0.o [1]
+nrf_tx_state            0x0000dd5b    0x24  Code  Gb  FIRE_NRF24L0.o [1]
+nrf_writebuf            0x0000dadb    0x28  Code  Lc  FIRE_NRF24L0.o [1]
+nrf_writereg            0x0000da8d    0x26  Code  Lc  FIRE_NRF24L0.o [1]
+num                     0x1fff4b6d     0x1  Data  Gb  camera.o [1]
+num1                    0x1fff4ba3     0x1  Data  Gb  initialization.o [1]
+obuf                    0x1fff4b04    0x50  Data  Lc  xfiles.o [3]
+pit_init                0x00012d69    0x6c  Code  Gb  MK60_PIT.o [1]
+pll_init                0x000130d3    0xb2  Code  Gb  MK60_mcg.o [1]
+podao_flag              0x1fff4b9c     0x1  Data  Gb  camera.o [1]
+podao_ready_flag        0x1fff4b9b     0x1  Data  Gb  camera.o [1]
+podao_zhidao_flag       0x1fff4b96     0x1  Data  Gb  camera.o [1]
+port_init               0x0000e04d    0x2e  Code  Gb  MK60_port.o [1]
+port_init_NoALT         0x0000e07b    0x4c  Code  Gb  MK60_port.o [1]
+portb_handler           0x0000b9e1    0x72  Code  Gb  camera.o [1]
+portc_handler           0x0000ba59    0x48  Code  Gb  camera.o [1]
+printf                  0x0000e7c5    0x24  Code  Gb  printf.o [3]
+putchar                 0x00013e29     0xc  Code  Gb  putchar.o [3]
+qian_shizi_flag         0x1fff4b81     0x1  Data  Gb  camera.o [1]
+qipaoxian_flag          0x1fff4b97     0x1  Data  Gb  camera.o [1]
+qipaoxian_flag_fa       0x1fff4b99     0x1  Data  Gb  camera.o [1]
+relen                   0x1fff4b94     0x1  Data  Gb  camera.o [1]
+right_cha               0x1fff3ad4    0x50  Data  Gb  camera.o [1]
+rightline               0x1fff4a24    0x50  Data  Gb  main.o [1]
+rightline_flag          0x1fff4b71     0x1  Data  Gb  camera.o [1]
+roundabout_num          0x1fff14c0     0x4  Data  Gb  setting.o [1]
+ruhuan_break_left       0x1fff38fc     0x4  Data  Gb  camera.o [1]
+ruhuan_break_right      0x1fff38f8     0x4  Data  Gb  camera.o [1]
+ruhuan_diu_count        0x1fff3808     0x4  Data  Gb  camera.o [1]
+ruhuan_find_left        0x1fff380c     0x4  Data  Gb  camera.o [1]
+ruhuan_find_right       0x1fff3810     0x4  Data  Gb  camera.o [1]
+ruhuandao_flag          0x1fff4b7f     0x1  Data  Gb  camera.o [1]
+ruhuandao_may           0x1fff4b83     0x1  Data  Gb  camera.o [1]
+ruhuandao_ready         0x1fff4b82     0x1  Data  Gb  camera.o [1]
+safe_distance           0x1fff39d0     0x4  Data  Gb  camera.o [1]
+sao_you                 0x1fff043c     0x1  Data  Gb  camera.o [1]
+sao_zuo                 0x1fff4b74     0x1  Data  Gb  camera.o [1]
+second_slow_speed       0x1fff4b6a     0x2  Data  Gb  initialization.o [1]
+send_img_on             0x1fff4bae     0x1  Data  Gb  setting.o [1]
+send_num                0x1fff4b8e     0x1  Data  Gb  camera.o [1]
+send_show_number        0x1fff4b8f     0x1  Data  Gb  camera.o [1]
+set_priority_irq        0x000129eb    0x2c  Code  Gb  initialization.o [1]
+set_sys_dividers        0x1fff16d1    0x50  Code  Gb  MK60_mcg.o [1]
+set_vector_handler      0x0000e71b    0x22  Code  Gb  misc.o [1]
+setting                 0x0000fac9  0x1348  Code  Gb  setting.o [1]
+shizi_count             0x1fff3a0c     0x4  Data  Gb  camera.o [1]
+shizi_distance          0x1fff3a10     0x4  Data  Gb  camera.o [1]
+shizi_flag_zhi          0x1fff4b75     0x1  Data  Gb  camera.o [1]
+shizi_hui_flag          0x1fff39e8     0x4  Data  Gb  camera.o [1]
+shizi_judge_mid         0x1fff38dc     0x4  Data  Gb  camera.o [1]
+shizi_kuandu            0x1fff3a18     0x4  Data  Gb  camera.o [1]
+shizi_star_left         0x1fff4b7c     0x1  Data  Gb  camera.o [1]
+shizi_star_right        0x1fff4b7b     0x1  Data  Gb  camera.o [1]
+shizi_start_left        0x1fff3a20     0x4  Data  Gb  camera.o [1]
+shizi_start_mid         0x1fff3a28     0x4  Data  Gb  camera.o [1]
+shizi_start_right       0x1fff3a24     0x4  Data  Gb  camera.o [1]
+shizi_tiaobian          0x1fff3a14     0x4  Data  Gb  camera.o [1]
+slope                   0x1fff3714     0x4  Data  Gb  camera.o [1]
+slope1                  0x1fff370c     0x4  Data  Gb  camera.o [1]
+slope2                  0x1fff3710     0x4  Data  Gb  camera.o [1]
+slope_chuhuan           0x1fff37b4     0x4  Data  Gb  camera.o [1]
+slope_chuhuan_you       0x1fff37f0     0x4  Data  Gb  camera.o [1]
+slope_chuhuan_zuo       0x1fff37ec     0x4  Data  Gb  camera.o [1]
+slope_huanyou_judge     0x1fff3834     0x4  Data  Gb  camera.o [1]
+slope_huanyou_old       0x1fff3900     0x4  Data  Gb  camera.o [1]
+slope_huanzuo_judge     0x1fff3830     0x4  Data  Gb  camera.o [1]
+slope_huanzuo_old       0x1fff3904     0x4  Data  Gb  camera.o [1]
+slope_ruhuan_diu_you    0x1fff3828     0x4  Data  Gb  camera.o [1]
+slope_ruhuan_diu_zuo    0x1fff3824     0x4  Data  Gb  camera.o [1]
+slope_ruhuan_you        0x1fff37f8     0x4  Data  Gb  camera.o [1]
+slope_ruhuan_zuo        0x1fff37f4     0x4  Data  Gb  camera.o [1]
+slope_shizi_left        0x1fff39b8     0x4  Data  Gb  camera.o [1]
+slope_shizi_right       0x1fff39bc     0x4  Data  Gb  camera.o [1]
+slope_xierushizi        0x1fff3768     0x4  Data  Gb  camera.o [1]
+slope_xieshizi_you      0x1fff3a68     0x4  Data  Gb  camera.o [1]
+slope_xieshizi_zuo      0x1fff3a6c     0x4  Data  Gb  camera.o [1]
+slope_you_judge         0x1fff38f4     0x4  Data  Gb  camera.o [1]
+slope_you_shizi         0x1fff382c     0x4  Data  Gb  camera.o [1]
+slope_zhangai_you       0x1fff39c0     0x4  Data  Gb  camera.o [1]
+slope_zhangai_zuo       0x1fff39c4     0x4  Data  Gb  camera.o [1]
+slope_zuo_judge         0x1fff38f0     0x4  Data  Gb  camera.o [1]
+slope_zuo_shizi         0x1fff3a1c     0x4  Data  Gb  camera.o [1]
+slpoe_xieshizi_leftback
+                        0x1fff3a50     0x4  Data  Gb  camera.o [1]
+slpoe_xieshizi_leftfront
+                        0x1fff3a54     0x4  Data  Gb  camera.o [1]
+slpoe_xieshizi_rightback
+                        0x1fff3a58     0x4  Data  Gb  camera.o [1]
+slpoe_xieshizi_rightfront
+                        0x1fff3a5c     0x4  Data  Gb  camera.o [1]
+speed                   0x1fff4b66     0x2  Data  Gb  initialization.o [1]
+speed_left              0x1fff4b64     0x2  Data  Gb  initialization.o [1]
+speed_right             0x1fff4b62     0x2  Data  Gb  initialization.o [1]
+speed_set               0x1fff13ec     0x2  Data  Gb  initialization.o [1]
+speed_set_left          0x00012755   0x1cc  Code  Gb  motor.o [1]
+speed_set_right         0x00012549   0x20c  Code  Gb  motor.o [1]
+speed_set_to_left       0x1fff13e8     0x2  Data  Gb  initialization.o [1]
+speed_set_to_right      0x1fff13ea     0x2  Data  Gb  initialization.o [1]
+speed_setting           0x00013a3f    0x16  Code  Gb  main.o [1]
+speedset_co             0x1fff14b0     0x4  Data  Gb  setting.o [1]
+speedset_st             0x1fff14ac     0x4  Data  Gb  setting.o [1]
+spi_init                0x0000e139   0x27e  Code  Gb  MK60_spi.o [1]
+spi_mosi                0x0000e3b7   0x110  Code  Gb  MK60_spi.o [1]
+spi_mosi_cmd            0x0000e4c7   0x20c  Code  Gb  MK60_spi.o [1]
+standard                0x0000ccd5    0x10  Code  Gb  Fuzzy_PID.o [1]
+start                   0x00013891    0x18  Code  Gb  system_MK60DZ10.o [1]
+start_check             0x0000df75    0x9a  Code  Gb  FIRE_MK60_conf.o [1]
+start_find              0x1fff4b76     0x1  Data  Gb  camera.o [1]
+steer_out               0x1fff4b58     0x2  Data  Gb  camera.o [1]
+steer_wan_kd_left       0x1fff0428     0x4  Data  Gb  camera.o [1]
+steer_wan_kd_right      0x1fff0430     0x4  Data  Gb  camera.o [1]
+steer_wan_kp_left       0x1fff0424     0x4  Data  Gb  camera.o [1]
+steer_wan_kp_right      0x1fff042c     0x4  Data  Gb  camera.o [1]
+steer_xiaos_kd          0x1fff0420     0x4  Data  Gb  camera.o [1]
+steer_xiaos_kp          0x1fff041c     0x4  Data  Gb  camera.o [1]
+steer_zhi_kd            0x1fff0418     0x4  Data  Gb  camera.o [1]
+steer_zhi_kp            0x1fff0414     0x4  Data  Gb  camera.o [1]
+stop_distance           0x1fff3b88     0x4  Data  Gb  camera.o [1]
+stop_flag               0x1fff4b98     0x1  Data  Gb  camera.o [1]
+strchr                  0x0000f735          Code  Gb  strchr.o [5]
+strlen                  0x0000f74d          Code  Gb  strlen.o [5]
+sysinit                 0x000138a9    0x3c  Code  Gb  system_MK60DZ10.o [1]
+systick_delay           0x0000dec1    0x36  Code  Gb  MK60_SysTick.o [1]
+systick_delay_ms        0x0000def7    0x18  Code  Gb  MK60_SysTick.o [1]
+sz                      0x1fff0490    0x28  Data  Gb  camera.o [1]
+term                    0x1fff14b8     0x4  Data  Gb  setting.o [1]
+term_pd                 0x1fff14c4     0x4  Data  Gb  setting.o [1]
+term_speed              0x1fff14bc     0x4  Data  Gb  setting.o [1]
+tiaobian_left           0x1fff376c     0x4  Data  Gb  camera.o [1]
+tiaobian_right          0x1fff3770     0x4  Data  Gb  camera.o [1]
+tingche_chaoche_flag    0x1fff4b92     0x1  Data  Gb  camera.o [1]
+tubian_count            0x1fff3b84     0x4  Data  Gb  camera.o [1]
+turn_flag               0x1fff4b90     0x1  Data  Gb  camera.o [1]
+uart2_handler           0x00012c1d    0xa0  Code  Gb  initialization.o [1]
+uart_getchar            0x0000d2af    0x1c  Code  Gb  MK60_uart.o [1]
+uart_init               0x0000d09b   0x214  Code  Gb  MK60_uart.o [1]
+uart_putchar            0x0000d2cb    0x1a  Code  Gb  MK60_uart.o [1]
+uart_rx_irq_en          0x0000d2e5    0x2a  Code  Gb  MK60_uart.o [1]
+up_dot_you              0x1fff3778     0x4  Data  Gb  camera.o [1]
+up_dot_zuo              0x1fff3774     0x4  Data  Gb  camera.o [1]
+up_lie_left             0x1fff37a8     0x4  Data  Gb  camera.o [1]
+up_lie_right            0x1fff37a4     0x4  Data  Gb  camera.o [1]
+valid_line              0x1fff3a74     0x4  Data  Gb  camera.o [1]
+vector_str              0x1fff04c4   0x708  Data  Gb  FIRE_MK60_conf.o [1]
+wdog_disable            0x000139b5    0x16  Code  Gb  MK60_wdog.o [1]
+wdog_unlock             0x000139cd    0x20  Code  Lc  MK60_wdog.o [1]
+weight                  0x1fff0440    0x14  Data  Gb  camera.o [1]
+white_flag              0x1fff4b80     0x1  Data  Gb  camera.o [1]
+width                   0x1fff0454    0x28  Data  Gb  camera.o [1]
+write_vtor              0x0000e6f9    0x22  Code  Gb  misc.o [1]
+x_2                     0x1fff3bb0     0x4  Data  Gb  camera.o [1]
+x_y                     0x1fff3bb4     0x4  Data  Gb  camera.o [1]
+xiaos_flag              0x1fff4b7d     0x1  Data  Gb  camera.o [1]
+xielv_cal               0x1fff3bc8     0x4  Data  Gb  camera.o [1]
+xierushizi_flag         0x1fff4b78     0x1  Data  Gb  camera.o [1]
+xieshizi_break_left     0x1fff3a40     0x4  Data  Gb  camera.o [1]
+xieshizi_break_right    0x1fff3a3c     0x4  Data  Gb  camera.o [1]
+xieshizi_find_left      0x1fff3a34     0x4  Data  Gb  camera.o [1]
+xieshizi_find_right     0x1fff3a38     0x4  Data  Gb  camera.o [1]
+xieshizi_left_tiaobian  0x1fff3a60     0x4  Data  Gb  camera.o [1]
+xieshizi_rebreak_left   0x1fff3a44     0x4  Data  Gb  camera.o [1]
+xieshizi_rebreak_right  0x1fff3a4c     0x4  Data  Gb  camera.o [1]
+xieshizi_right_tiaobian
+                        0x1fff3a64     0x4  Data  Gb  camera.o [1]
+xieshizi_you_restart    0x1fff3a48     0x4  Data  Gb  camera.o [1]
+xieshizi_youdiu_count   0x1fff3a30     0x4  Data  Gb  camera.o [1]
+xieshizi_zuodiu_count   0x1fff3a2c     0x4  Data  Gb  camera.o [1]
+you_ruhuan_start        0x1fff390c     0x4  Data  Gb  camera.o [1]
+youruhuan_diu_count     0x1fff381c     0x4  Data  Gb  camera.o [1]
+youruhuan_diu_find      0x1fff3820     0x4  Data  Gb  camera.o [1]
+za_slope                0x1fff39c8     0x4  Data  Gb  camera.o [1]
+zhangai_break           0x1fff4b5c     0x2  Data  Gb  camera.o [1]
+zhangai_check           0x0000adfd   0x784  Code  Gb  camera.o [1]
+zhangai_distance        0x1fff3b78     0x4  Data  Gb  camera.o [1]
+zhangai_left_flag       0x1fff4b8a     0x1  Data  Gb  camera.o [1]
+zhangai_line_you        0x1fff3960    0x50  Data  Gb  camera.o [1]
+zhangai_line_zuo        0x1fff3910    0x50  Data  Gb  camera.o [1]
+zhangai_right_flag      0x1fff4b8b     0x1  Data  Gb  camera.o [1]
+zhangai_start           0x1fff4b5a     0x2  Data  Gb  camera.o [1]
+zhangai_start_you       0x1fff4b60     0x2  Data  Gb  camera.o [1]
+zhangai_start_zuo       0x1fff4b5e     0x2  Data  Gb  camera.o [1]
+zhangaifind_flag        0x1fff4b87     0x1  Data  Gb  camera.o [1]
+zhangaifind_you_flag    0x1fff4b88     0x1  Data  Gb  camera.o [1]
+zhangaifind_zuo_flag    0x1fff4b89     0x1  Data  Gb  camera.o [1]
+zhidao_chaoche_count    0x1fff0488     0x4  Data  Gb  camera.o [1]
+zhidao_chaoche_num      0x1fff4ad8     0x4  Data  Gb  setting.o [1]
+zhidao_flag             0x1fff4b7e     0x1  Data  Gb  camera.o [1]
+zhongdianjiasu_flag     0x1fff4b9a     0x1  Data  Gb  camera.o [1]
+zhongdianzhangai_location
+                        0x1fff3b8c     0x4  Data  Gb  camera.o [1]
+zhongxian_front         0x1fff3718    0x10  Data  Gb  camera.o [1]
+zuo_ruhuan_start        0x1fff3908     0x4  Data  Gb  camera.o [1]
+zuoruhuan_diu_count     0x1fff3814     0x4  Data  Gb  camera.o [1]
+zuoruhuan_diu_find      0x1fff3818     0x4  Data  Gb  camera.o [1]
+
+
+[1] = E:\FeiSiKaEr\A_double\PROGRAM\国赛\08 18 tmt-fuzzy\华东决赛\Prj\IAR\DZ10_Debug\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+
+  74 168 bytes of readonly  code memory
+     440 bytes of readwrite code memory
+   7 648 bytes of readonly  data memory
+  18 031 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

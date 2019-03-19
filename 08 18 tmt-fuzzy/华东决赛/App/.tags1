@@ -1,0 +1,120 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+steer_mid	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^#define steer_mid /;"	macro	line:5	file:
+steer_left_max	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^#define steer_left_max /;"	macro	line:6	file:
+steer_right_max	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^#define steer_right_max /;"	macro	line:7	file:
+steer_zhi_kp	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^float steer_zhi_kp;$/;"	variable	line:9
+steer_zhi_kd	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^float steer_zhi_kd;$/;"	variable	line:10
+steer_wan_kp_left	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^float steer_wan_kp_left;$/;"	variable	line:11
+steer_wan_kd_left	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^float steer_wan_kd_left;$/;"	variable	line:12
+steer_wan_kp_right	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^float steer_wan_kp_right;$/;"	variable	line:13
+steer_wan_kd_right	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^float steer_wan_kd_right;$/;"	variable	line:14
+steer_kp_bottom	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^float steer_kp_bottom;$/;"	variable	line:15
+imgbuff	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 imgbuff[CAMERA_R_H][CAMERA_W]; \/\/å®šä¹‰å­˜å‚¨æ¥æ”¶å›¾åƒçš„æ•°ç»„$/;"	variable	line:17
+imgpro	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 imgpro[CAMERA_R_H][CAMERA_W];  \/\/äºŒå€¼åŒ–å¤„ç†å›¾åƒæ•°ç»„$/;"	variable	line:18
+V_Cnt	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 V_Cnt = 0;$/;"	variable	line:19
+img_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 img_flag = 1; \/\/å›¾åƒçŠ¶æ€$/;"	variable	line:20
+VS	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint16 VS = 0;$/;"	variable	line:23
+HS	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint16 HS = 0;$/;"	variable	line:24
+num	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 num;$/;"	variable	line:25
+mid_old	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int16 mid_old = 100;$/;"	variable	line:26
+midline	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int16 midline[40] = {0};$/;"	variable	line:27
+steer_out	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint16 steer_out;$/;"	variable	line:28
+i	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int i, j;$/;"	variable	line:29
+j	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int i, j;$/;"	variable	line:29
+count	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int count;$/;"	variable	line:30
+break_right	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 break_right, break_left;$/;"	variable	line:31
+break_left	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 break_right, break_left;$/;"	variable	line:31
+leftline	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int16 leftline[40];$/;"	variable	line:32
+rightline	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int16 rightline[40];$/;"	variable	line:33
+leftline_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 leftline_flag, rightline_flag;$/;"	variable	line:34
+rightline_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 leftline_flag, rightline_flag;$/;"	variable	line:34
+xiaos_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 xiaos_flag, shizi_flag, dawan_flag;$/;"	variable	line:35
+shizi_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 xiaos_flag, shizi_flag, dawan_flag;$/;"	variable	line:35
+dawan_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 xiaos_flag, shizi_flag, dawan_flag;$/;"	variable	line:35
+shizi_flag_zhi	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 shizi_flag_zhi;$/;"	variable	line:36
+start_find	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 start_find;$/;"	variable	line:37
+find_line_right	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^unsigned char find_line_right, find_line_left = 0;$/;"	variable	line:38
+find_line_left	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^unsigned char find_line_right, find_line_left = 0;$/;"	variable	line:38
+sao_zuo	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^unsigned char sao_zuo, sao_you = 1;$/;"	variable	line:39
+sao_you	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^unsigned char sao_zuo, sao_you = 1;$/;"	variable	line:39
+shizi_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^unsigned char shizi_flag, shizi_flag_zhi = 0;$/;"	variable	line:40
+shizi_flag_zhi	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^unsigned char shizi_flag, shizi_flag_zhi = 0;$/;"	variable	line:40
+white	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^unsigned char white = 0;$/;"	variable	line:41
+start_find	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^unsigned char start_find, allwhite = 0;$/;"	variable	line:42
+allwhite	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^unsigned char start_find, allwhite = 0;$/;"	variable	line:42
+slope1	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^float slope1, slope2, slope;$/;"	variable	line:43
+slope2	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^float slope1, slope2, slope;$/;"	variable	line:43
+slope	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^float slope1, slope2, slope;$/;"	variable	line:43
+xierushizi_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^unsigned char xierushizi_flag = 0;$/;"	variable	line:44
+tiaobian	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^unsigned char tiaobian = 0;$/;"	variable	line:45
+shizi_flag_xie	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^unsigned char shizi_flag_xie = 0;$/;"	variable	line:46
+shizi_star	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^unsigned char shizi_star = 0;$/;"	variable	line:47
+find	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^unsigned char find = 0;$/;"	variable	line:48
+break_left_shizi	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^unsigned char break_left_shizi, break_right_shizi = 0;$/;"	variable	line:49
+break_right_shizi	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^unsigned char break_left_shizi, break_right_shizi = 0;$/;"	variable	line:49
+shizi_star_right	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 shizi_star_right, shizi_star_left;$/;"	variable	line:50
+shizi_star_left	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 shizi_star_right, shizi_star_left;$/;"	variable	line:50
+xiaos_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 xiaos_flag = 0;$/;"	variable	line:51
+buxian_flag_left	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 buxian_flag_left, buxian_flag_right = 0;$/;"	variable	line:52
+buxian_flag_right	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 buxian_flag_left, buxian_flag_right = 0;$/;"	variable	line:52
+zhongxian_front	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int zhongxian_front[4] = {0};$/;"	variable	line:53
+zhongxian_back	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int zhongxian_back[4] = {0};$/;"	variable	line:54
+zhidao_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 zhidao_flag, wandao_flag = 0;$/;"	variable	line:55
+wandao_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 zhidao_flag, wandao_flag = 0;$/;"	variable	line:55
+error_steer	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int error_steer[6] = {0};$/;"	variable	line:56
+count_ruwan	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 count_ruwan, count_chuwan = 0;$/;"	variable	line:57
+count_chuwan	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 count_ruwan, count_chuwan = 0;$/;"	variable	line:57
+ruwan_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 ruwan_flag, chuwan_flag = 0;$/;"	variable	line:58
+chuwan_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 ruwan_flag, chuwan_flag = 0;$/;"	variable	line:58
+zhongxian_front_ave	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int zhongxian_front_ave, zhongxian_back_ave = 0;$/;"	variable	line:59
+zhongxian_back_ave	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int zhongxian_front_ave, zhongxian_back_ave = 0;$/;"	variable	line:59
+tubian	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int tubian = 0;$/;"	variable	line:60
+time_now	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^long time_now = 0;$/;"	variable	line:62
+weight	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 weight[20] = {20, 19, 18, 17, 16, 15, 14, 13, 12, 11,$/;"	variable	line:63
+width	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 width[40] = {70,  72,  74,  76,  78,  80,  82,  84,  86,  88,$/;"	variable	line:65
+kuandu	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 kuandu[40];$/;"	variable	line:69
+panduan_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int panduan_flag = 0;$/;"	variable	line:71
+zhangai_line	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int16 zhangai_line[CAMERA_R_H];$/;"	variable	line:73
+zhangai_start	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int16 zhangai_start, zhangai_break;$/;"	variable	line:74
+zhangai_break	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int16 zhangai_start, zhangai_break;$/;"	variable	line:74
+zhangaifinish_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 zhangaifinish_flag;$/;"	variable	line:75
+zhangai_max	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int zhangai_max, zhangai_min, zhangai_middle;$/;"	variable	line:76
+zhangai_min	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int zhangai_max, zhangai_min, zhangai_middle;$/;"	variable	line:76
+zhangai_middle	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int zhangai_max, zhangai_min, zhangai_middle;$/;"	variable	line:76
+zhangai_left_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 zhangai_left_flag, zhangai_right_flag, zhangai_flag;$/;"	variable	line:77
+zhangai_right_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 zhangai_left_flag, zhangai_right_flag, zhangai_flag;$/;"	variable	line:77
+zhangai_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 zhangai_left_flag, zhangai_right_flag, zhangai_flag;$/;"	variable	line:77
+OA_replace_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int OA_replace_flag = 0, OB_replace_flag = 0;$/;"	variable	line:78
+OB_replace_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int OA_replace_flag = 0, OB_replace_flag = 0;$/;"	variable	line:78
+OA_distance	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int OA_distance = 0;$/;"	variable	line:79
+zhangai_lilun_middle	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint16 zhangai_lilun_middle;$/;"	variable	line:80
+zhangai_back_flag	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int8 zhangai_back_flag;$/;"	variable	line:81
+OA_distance2	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int64 OA_distance2 = 0, OB_distance = 0;$/;"	variable	line:82
+OB_distance	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int64 OA_distance2 = 0, OB_distance = 0;$/;"	variable	line:82
+b	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int b;$/;"	variable	line:84
+slope_shizi_left	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^float slope_shizi_left, slope_shizi_right;$/;"	variable	line:85
+slope_shizi_right	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^float slope_shizi_left, slope_shizi_right;$/;"	variable	line:85
+SumX	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int SumX = 0;$/;"	variable	line:90
+SumY	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int SumY = 0;$/;"	variable	line:91
+x_2	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^long x_2 = 0;$/;"	variable	line:92
+x_y	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^long x_y = 0;$/;"	variable	line:93
+AverageX	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^float AverageX;$/;"	variable	line:94
+AverageY	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^float AverageY;$/;"	variable	line:95
+AverageX_2	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^float AverageX_2;$/;"	variable	line:96
+AverageX_Y	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^float AverageX_Y;$/;"	variable	line:97
+xielv_cal	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int xielv_cal;$/;"	variable	line:98
+AvaliableLines	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int AvaliableLines;$/;"	variable	line:99
+Least_Squares	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int Least_Squares(int16 *array, int16 Number, int16 start) {$/;"	function	line:101	signature:(int16 *array, int16 Number, int16 start)
+max	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int max(int a, int b, int c, int d) {$/;"	function	line:129	signature:(int a, int b, int c, int d)
+min	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^int min(int a, int b, int c, int d) {$/;"	function	line:139	signature:(int a, int b, int c, int d)
+sz	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^uint8 sz[CAMERA_R_H] = {$/;"	variable	line:150
+camera	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^void camera(void) {$/;"	function	line:157	signature:(void)
+zhangai_check	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^void zhangai_check(void) {$/;"	function	line:880	signature:(void)
+LP_image	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^void LP_image() {$/;"	function	line:950
+portb_handler	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^void portb_handler() {$/;"	function	line:988
+portc_handler	C:\Users\Jamorn\Desktop\2017-3-24ÍíÉÏµÄµ°µ°\App\camera.c	/^void portc_handler() {$/;"	function	line:1009

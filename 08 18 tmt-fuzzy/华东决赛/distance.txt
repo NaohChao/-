@@ -1,0 +1,62 @@
+void chasu(void)
+{  
+  if (bizhang_zhidao_flag==0&&init_distance<20&&init_distance>-20&&(error_steer[0]>6 || error_steer[0]<-6))   //中线偏差
+  {
+    
+    speed_set_to_left=speed_set-(int)error_steer[0]*0.26;//0.05
+    speed_set_to_right=speed_set+(int)error_steer[0]*0.26;
+    
+    if (speed_set_to_left<10)
+    {
+      speed_set_to_left=10;
+    }
+    
+    if (speed_set_to_left>140)
+    {
+      speed_set_to_left=140;
+    }
+    
+    
+    if (speed_set_to_right<10)
+    {
+      speed_set_to_right=10;
+    }
+    if (speed_set_to_right>140)
+    {
+      speed_set_to_right=140;
+    }
+  }
+  else
+  {
+    speed_set_to_left=speed_set;
+    speed_set_to_right=speed_set;
+  }
+}
+
+
+
+void  main(void)
+{
+  
+  DisableInterrupts;
+  
+  initialization();
+  FTM_PWM_Duty(FTM1, FTM_CH0, steer_mid);
+  systick_delay_ms(8000);
+  EnableInterrupts;   //数据采集完成
+  
+  chaosheng_speed_set=70;
+  while(1)
+  {
+    if(chaosheng_speed_set!9=0)
+    chaosheng_speed_set=70;    
+    camera();    //图像处理
+    if(chaosheng_speed_set!=0)
+    distance_control(600);//距离控制
+   // chasu();//差速
+    LCD_Show_Number(20, 2, chaosheng_speed_set);
+    LCD_Show_Number(80, 2, avg_distance);
+
+  }
+  
+}

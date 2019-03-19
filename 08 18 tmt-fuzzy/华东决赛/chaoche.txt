@@ -1,0 +1,22 @@
+ if(chuhuandao_flag==2&&former_flag==1)
+    {     
+      zhubei_chaoche_flag=1;        ///  for debug/////////////////
+      if(avg_distance>=600&&avg_distance<=2000)
+      {
+        zhubei_chaoche_flag=2;    ///  for debug/////////////////
+        chaosheng_speed_set=70;        
+        former_flag=0;
+        send_num=1;
+      }
+      else
+      { 
+        zhubei_chaoche_flag=3;      ///  for debug/////////////////
+        chaosheng_speed_set=0;        
+      }
+    }
+    else
+    {
+      zhubei_chaoche_flag=0;     ///  for debug/////////////////
+      send_num=0;
+    }
+    

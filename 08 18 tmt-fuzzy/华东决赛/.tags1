@@ -1,0 +1,12 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+speed_right	C:\Users\Jamorn\Desktop\2017-3-24晚上的蛋蛋\App\initialization.c	/^int8 speed_right, speed_left;$/;"	variable	line:5
+speed_left	C:\Users\Jamorn\Desktop\2017-3-24晚上的蛋蛋\App\initialization.c	/^int8 speed_right, speed_left;$/;"	variable	line:5
+LED_init	C:\Users\Jamorn\Desktop\2017-3-24晚上的蛋蛋\App\initialization.c	/^void LED_init(void) {$/;"	function	line:14	signature:(void)
+set_priority_irq	C:\Users\Jamorn\Desktop\2017-3-24晚上的蛋蛋\App\initialization.c	/^void set_priority_irq(void) {$/;"	function	line:22	signature:(void)
+initialization	C:\Users\Jamorn\Desktop\2017-3-24晚上的蛋蛋\App\initialization.c	/^void initialization(void) {$/;"	function	line:36	signature:(void)
+PIT0_IRQHandler	C:\Users\Jamorn\Desktop\2017-3-24晚上的蛋蛋\App\initialization.c	/^void PIT0_IRQHandler() {$/;"	function	line:87

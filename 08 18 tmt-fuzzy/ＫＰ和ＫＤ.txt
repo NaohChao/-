@@ -1,0 +1,12 @@
+
+£¹£°×óÓÒ
+steer_wan_kp_left = 0.8; // 0.8
+    steer_wan_kd_left = 3.5;   //    2
+    steer_wan_kp_right = 0.8;  //   0.8
+    steer_wan_kd_right = 3.5;  //  2 
+
+70×óÓÒµÄ£Ë£ÐºÍ£Ë£Ä
+steer_wan_kp_left = 0.8; // 0.8
+    steer_wan_kd_left = 2;   //    2
+    steer_wan_kp_right = 0.8;  //   0.8
+    steer_wan_kd_right = 2;  //  2       
